@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <template id="website_extended_custom_snippets" inherit_id="website.snippets">
+        <xpath expr="//div[@id='snippet_structure']/div[hasclass('o_panel_body')]" position="after">
+            <div class="o_panel_header">
+                Custom Snippets
+            </div>
+            <div class="o_panel_body">
+                <t t-snippet="theme_custom.megamenu_style"/>
+                <t t-snippet="theme_custom.banner_video"/>
+            </div>
+        </xpath>
+    </template>
+
+    <template id="megamenu_style" name="Custom Megamenu">
+        <section class="custom_image1">
+            <div class="row">
+                <div class="col-md-1"/>
+                <div class="col-md-2 col-6">
+                    <img class="bg-object-1" src="/theme_custom/static/img/1.jpeg"
+                         style="width:100%;"/>
+                    <h6 class="text-black pt8 custom_menu_size">
+                        <a href="#" class="text-black">
+                            Transparent sans armature
+                        </a>
+
+                    </h6>
+                </div>
+                <div class="col-md-2 col-6">
+                    <img class="bg-object-1" src="/theme_custom/static/img/2.jpeg"
+                         style="width:100%;"/>
+                    <h6 class="text-black pt8 custom_menu_size">
+                        <a href="#" class="text-black">
+                            Transparent
+                        </a>
+                    </h6>
+                </div>
+                <div class="col-md-2 col-6">
+                    <img class="bg-object-1" src="/theme_custom/static/img/3.jpeg"
+                         style="width:100%;"/>
+                    <h6 class="text-black pt8 custom_menu_size">
+                        <a href="#" class="text-black">
+                            Isolé avec baie vitrée
+                        </a>
+                    </h6>
+                </div>
+                <div class="col-md-2 col-6">
+                    <img class="bg-object-1" src="/theme_custom/static/img/4.jpeg"
+                         style="width:100%;"/>
+                    <h6 class="text-black pt8 custom_menu_size">
+                        <a href="#" class="text-black">
+                            Bâche PVC
+                        </a>
+                    </h6>
+                </div>
+                <div class="col-md-2 col-6">
+                    <img class="bg-object-1" src="/theme_custom/static/img/1.jpeg"
+                         style="width:100%;"/>
+                    <h6 class="text-black pt8 custom_menu_size">
+                        <a href="#" class="text-black">
+                            Verre Mirroir sans teint
+                        </a>
+                    </h6>
+                </div>
+            </div>
+        </section>
+    </template>
+
+    <template id="banner_video" name="Banner Video">
+        <section data-name="Banner Video">
+            <video autoplay="true" loop="infinite" muted="true" width="100%" height="100%">
+                <source src="/theme_custom/static/src/video/monkey_1.mp4" type="video/mp4">
+                </source>
+            </video>
+        </section>
+    </template>
+
+</odoo>

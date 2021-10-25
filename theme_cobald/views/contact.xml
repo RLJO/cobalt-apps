@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <template id="contact_template" name="Contact">
+        <t t-call="website.layout">
+            <div id="wrap" class="oe_structure oe_empty contact_page">
+                <setion class="contact_first_section">
+                    <div class="row">
+                        <div class="col-md-1 col-1"/>
+                        <div class="col-md-10 col-10">
+                            <div class="row pt112 pb128">
+                                <div class="col-md-3">
+                                    <span class="hr_top">top border</span>
+                                    <h1 class="font-weight-bold" style="color:#2961c4;font-size: 70px;line-height: 1;">
+                                        At your service
+                                    </h1>
+                                </div>
+                                <div class="col-md-1"/>
+                                <div class="col-md-5 mt40">
+                                    <form class="form_contact" action="/contact-us-thank-you" method="post" style="width: 90%;">
+                                        <input type="hidden" name="csrf_token" t-att-value="request.csrf_token()"/>
+                                        <input type="text" class="mb16 form-control p-0" name="name"
+                                               placeholder="Voornaam" required="required"/>
+                                        <input type="text" class="mb16 form-control p-0" name="contact_name"
+                                               placeholder="Naam" required="required"/>
+                                        <input type="email" class="mb16 form-control p-0" name="email_from"
+                                               placeholder="E-mail" required="required"/>
+                                        <input type="text" class="mb16 form-control p-0" name="phone"
+                                               placeholder="Telefoon"/>
+                                        <input type="text" class="mb16 form-control p-0" name="description"
+                                               placeholder="lk wil dealer worden"/>
+                                        <div class="confirm_aggrement mt24">
+                                            <span style="font-size: 14px;color: #495057;">
+                                                <input type="checkbox" class="mb16 p-0 mr-4" name="naam"/>
+                                                Akkoord met de
+                                                <a href="#" style="color: #495057;border-bottom: 1px solid;">Alegemene
+                                                    voorwarden
+                                                </a>
+                                            </span>
+                                        </div>
+                                        <div class="submit_contact text-right mt24">
+                                            <button class="btn-success text-uppercase font-weight-bold"
+                                               style="color:#2961c4;letter-spacing: 1px;font-size:14px;text-decoration: none;background: transparent;border: none;">
+                                                send
+                                                <i class="fa fa-angle-right text-white ml-3"
+                                                   style="padding: 6px 9px 6px 10px;background:#2961c4;"/>
+                                            </button>
+                                        </div>
+                                    </form>
+                                </div>
+                                <div class="col-md-1"/>
+                                <div class="col-md-2 mt32">
+                                    <h6 class="text-dark font-weight-bold text-uppercase pb24" style="font-size:14px;">
+                                        reach us
+                                    </h6>
+                                    <h6 class="text-dark" style="font-size:17px;">
+                                        Adres1
+                                    </h6>
+                                    <h6 class="text-dark" style="font-size:17px;">
+                                        straat nr
+                                    </h6>
+                                    <h6 class="text-dark" style="font-size:17px;">
+                                        OOOO Stad
+                                    </h6>
+                                    <h6 class="text-dark" style="font-size:17px;">
+                                        telefoon
+                                    </h6>
+                                    <h6 class="text-dark" style="font-size:17px;">
+                                        email
+                                    </h6>
+                                    <h6 class="text-dark font-weight-bold text-uppercase pb24 mt96" style="font-size:14px;">
+                                        social
+                                    </h6>
+                                    <h6 class="text-dark" style="font-size:17px;">
+                                        <i class="fa fa-instagram mr-4"/>
+                                        <i class="fa fa-linkedin mr-4"/>
+                                        <i class="fa fa-facebook"/>
+                                    </h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </setion>
+            </div>
+        </t>
+    </template>
+
+</odoo>

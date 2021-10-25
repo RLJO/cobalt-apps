@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <template id="dealers_template" name="Dealers">
+        <t t-call="website.layout">
+            <div id="wrap" class="oe_structure oe_empty dealers_page">
+                <section class="dealers_first_section oe_structure"
+                         style="background-image: url('/theme_cobald/static/src/img/d1');">
+                    <div class="row pb256 row_256">
+                        <div class="col-md-1 col-1"/>
+                        <div class="col-md-10 col-10 mt112">
+                            <div class="row m_content">
+                                <div class="col-md-6">
+                                    <span class="hr_top1">top border</span>
+                                    <h1 class="text-white" style="width: 30%;">
+                                        Dealers dignissim felis.
+                                    </h1>
+                                    <div class="row pt16 first_btn">
+                                        <div class="col-md-4 col-5 pr-0 text-center">
+                                            <a href="#"
+                                               class="btn btn-block font-weight-bold text-uppercase pt8 pb8 text-white"
+                                               style="background:#2961c4;border-radius: 0;font-size: 14px;letter-spacing: 2px;">
+                                                dealer worden
+                                            </a>
+                                        </div>
+                                        <div class="col-md-4 col-7 text-center">
+                                            <a href="#"
+                                               class="btn btn-block font-weight-bold text-uppercase pt8 pb8 bg-white"
+                                               style="border:1px solid #2961c4;color:#2961c4;border-radius: 0;font-size: 14px;letter-spacing: 2px;">
+                                                service desk
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="dealers_second_section oe_structure">
+                    <div class="row pt40">
+                        <div class="col-md-6">
+                            <img src="/theme_cobald/static/src/img/4.png" style="width:100%;height: 100%;"/>
+                        </div>
+                        <div class="col-md-5 second_section_4">
+                            <div class="pl-2 pr-5 mr-5">
+                                <h3 class="text-uppercase common_h3 font-weight-bold pt64 pb48"
+                                    style="color:#2961c4;line-height: 1.5;letter-spacing: 3px;font-size:33px;">
+                                    vulputate manga eros eu erat. aliquam erat volutpat.
+                                </h3>
+                                <h6 class="text-dark pb64" style="font-size:22px;line-height: 1.9;">
+                                    Ehebus culicae iam inte omnius? Cae postrun tracredetidi susulint ius noveroOcae
+                                    conem popularem omnihicam iae prorare pulvil conu.
+                                </h6>
+                                <a href="#"
+                                   class="btn common_btn font-weight-bold text-uppercase s2_btn bg-white pt8 pb8 pl-4 pr-4"
+                                   style="border:1px solid #2961c4;color:#2961c4;border-radius: 0;font-size: 14px;letter-spacing: 2px;">
+                                    dealer worden
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="dealers_pt_section oe_structure pt88">
+                    <div class="row">
+                        <div class="row">
+                            <div class="col-md-1"/>
+                            <div class="col-md-10">
+                                <div class="row">
+                                    <div class="col-md-6 phone_btn" style="display:none">
+                                        <img src="/theme_cobald/static/src/img/d2"
+                                             style="width:100%;height: 580px;"/>
+                                    </div>
+                                    <div class="col-1 phone_btn" style="display:none"/>
+                                    <div class="col-md-4 col-10">
+                                        <h3 class="text-uppercase common_h3 font-weight-bold pt64 pb48"
+                                            style="color:#2961c4;line-height: 1.5;letter-spacing: 3px;font-size:33px;">
+                                            Green &amp; Envaronmental
+                                        </h3>
+                                        <h6 class="text-dark pb88" style="font-size:22px;line-height: 1.9;">
+                                            Ehebus culicae iam inte omnius? Cae postrun tracredetidi susulint ius
+                                            noveroOcae
+                                            conem popularem omnihicam iae prorare pulvil conu.
+                                        </h6>
+                                        <a href="#"
+                                           class="btn common_btn font-weight-bold text-uppercase s2_btn bg-white pt8 pb8 pl-5 pr-5"
+                                           style="border:1px solid #2961c4;color:#2961c4;border-radius: 0;font-size: 14px;letter-spacing: 2px;">
+                                            Merken
+                                        </a>
+                                    </div>
+                                    <div class="col-md-2"/>
+                                    <div class="col-md-6 desktop_btn">
+                                        <img src="/theme_cobald/static/src/img/d2"
+                                             style="width:100%;height: 680px;"/>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="about_forth_section oe_structure pt152">
+                    <div class="row">
+                        <div class="row">
+                            <div class="col-md-1"/>
+                            <div class="col-md-10">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <img src="/theme_cobald/static/src/img/d2"
+                                             style="width:100%;height: 680px;"/>
+                                    </div>
+                                    <div class="col-md-1 col-1"/>
+                                    <div class="col-md-4 col-10">
+                                        <h3 class="text-uppercase common_h3 font-weight-bold pt64 pb48"
+                                            style="color:#2961c4;line-height: 1.5;letter-spacing: 3px;font-size:33px;">
+                                            Manga Eros eu erot aliquam erat colutpat
+                                        </h3>
+                                        <h6 class="text-dark pb128" style="font-size:22px;line-height: 1.9;">
+                                            Ehebus culicae iam inte omnius? Cae postrun tracredetidi susulint ius
+                                            noveroOcae
+                                            conem popularem omnihicam iae prorare pulvil conu.
+                                        </h6>
+                                        <span class="main_btn_span">
+                                            <a href="/contact"
+                                               class="btn font-weight-bold text-uppercase s2_btn bg-white pt8 pb8 pl-5 pr-5"
+                                               style="border:1px solid #2961c4;color:#2961c4;border-radius: 0;font-size: 14px;letter-spacing: 2px;">
+                                                Contact
+                                            </a>
+                                            <a href="#"
+                                               class="btn font-weight-bold text-uppercase text-white s2_btn pt8 pb8 pl-3 pr-2"
+                                               style="border:1px solid #2961c4;background:#2961c4;border-radius: 0;font-size: 14px;letter-spacing: 2px;position: relative;left: -4px;">
+                                                <i class="fa fa-instagram"/>
+                                            </a>
+                                            <a href="#"
+                                               class="btn font-weight-bold text-uppercase text-white s2_btn pt8 pb8 pl-3 pr-2"
+                                               style="border:1px solid #2961c4;background:#2961c4;border-radius: 0;font-size: 14px;letter-spacing: 2px;position: relative;left: -8px;">
+                                                <i class="fa fa-linkedin"/>
+                                            </a>
+                                            <a href="#"
+                                               class="btn font-weight-bold text-uppercase text-white s2_btn pt8 pb8 pl-3 pr-3"
+                                               style="border:1px solid #2961c4;background:#2961c4;border-radius: 0;font-size: 14px;letter-spacing: 2px;position: relative;left: -12px;">
+                                                <i class="fa fa-facebook"/>
+                                            </a>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="dealers_fifth_section oe_structure pt152">
+                    <div class="row">
+                        <div class="row">
+                            <div class="col-md-1"/>
+                            <div class="col-md-10">
+                                <div class="row">
+                                    <div class="col-md-6 phone_btn" style="display:none">
+                                        <img src="/theme_cobald/static/src/img/d2"
+                                             style="width:100%;height: 580px;"/>
+                                    </div>
+                                    <div class="col-1 phone_btn" style="display:none"/>
+                                    <div class="col-md-4 col-10">
+                                        <h3 class="text-uppercase common_h3 font-weight-bold pt64 pb48"
+                                            style="color:#2961c4;line-height: 1.5;letter-spacing: 3px;font-size:33px;">
+                                            eros eu erat aliquam erat volutpat.
+                                        </h3>
+                                        <h6 class="text-dark pb88" style="font-size:22px;line-height: 1.9;">
+                                            Ehebus culicae iam inte omnius? Cae postrun tracredetidi susulint ius
+                                            noveroOcae
+                                            conem popularem omnihicam iae prorare pulvil conu.
+                                        </h6>
+                                    </div>
+                                    <div class="col-md-2"/>
+                                    <div class="col-md-6 desktop_btn">
+                                        <img src="/theme_cobald/static/src/img/d2"
+                                             style="width:100%;height: 680px;"/>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="third_section dealers_last_section oe_structure mb72 mt128" style="background:#f7f7f7;">
+                    <div class="row">
+                        <div class="col-md-1 col-1"/>
+                        <div class="col-md-10 col-10">
+                            <h3 class="text-uppercase common_h3 font-weight-bold pt64 pb48"
+                                style="color:#2961c4;line-height: 1.5;letter-spacing: 3px;font-size:33px;">
+                                onze merken
+                            </h3>
+                            <div class="row">
+                                <div class="col-md-7">
+                                    <h6 class="text-dark mb0" style="font-size:22px;line-height: 1.9;">
+                                        New Office Liisquist verem, nos furnihil, Cator abus, qui pat faci tem clabem
+                                        num de publiem perfirim nerit. Ehebus culicae iam inte omnius? Cae postrun
+                                        tracredetidi susulint ius.
+                                    </h6>
+                                </div>
+                                <div class="col-md-3 desktop_btn text-right right_section">
+                                    <a href="#" class="btn font-weight-bold text-uppercase bg-white pl-4 pr-4 pt8 pb8"
+                                       style="border:1px solid #2961c4;color:#2961c4;border-radius: 0;font-size: 14px;letter-spacing: 2px;">
+                                        ontdek meer
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="row mt88 mb88">
+                                <div class="col-md-4">
+                                    <a href="#">
+                                        <img src="/theme_cobald/static/src/img/m1.png" style="width:100%;"/>
+                                        <p class="text-dark pt32" style="font-size:14px;">
+                                            Enea
+                                        </p>
+                                    </a>
+                                </div>
+                                <div class="col-md-4">
+                                    <a href="#">
+                                        <img src="/theme_cobald/static/src/img/m1.png" style="width:100%;"/>
+                                        <p class="text-dark pt32" style="font-size:14px;">
+                                            Ply
+                                        </p>
+                                    </a>
+                                </div>
+                                <div class="col-md-4">
+                                    <a href="#">
+                                        <img src="/theme_cobald/static/src/img/m1.png" style="width:100%;"/>
+                                        <p class="text-dark pt32" style="font-size:14px;">
+                                            Escale
+                                        </p>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-12 mb64 phone_btn text-center" style="display:none;">
+                                    <a href="#" class="btn font-weight-bold text-uppercase bg-white pl-4 pr-4 pt8 pb8"
+                                       style="border:1px solid #2961c4;color:#2961c4;border-radius: 0;font-size: 14px;letter-spacing: 2px;">
+                                        ontdek meer
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </t>
+    </template>
+
+</odoo>

@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <template id="about_template" name="About">
+        <t t-call="website.layout">
+            <div id="wrap" class="oe_structure oe_empty about_page">
+                <section class="first_section mb152 oe_structure">
+                    <div class="row">
+                        <img src="/theme_cobald/static/src/img/2.jpeg" style="width:100%;height: 650px;"/>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-1 col-1"/>
+                        <div class="col-md-10 col-12 about_12">
+                            <div class="row s_content">
+                                <div class="col-md-4 about_first">
+                                    <span class="hr_top1">top border</span>
+                                    <h1 class="text-white">
+                                        The story of Cobald
+                                    </h1>
+                                </div>
+                                <div class="col-md-3"/>
+                                <div class="col-md-5 text-white about_f1_content" style="background:#2961c4;">
+                                    <h3 class="text-white pt32 pl-4 pr-4">
+                                        Missie
+                                    </h3>
+                                    <h6 class="text-white pt40 pb56 pl-4 pr-4" style="font-size:15px;line-height: 2;">
+                                        Intro tekst Cobald em, nos furnihili, Cator abus, qui pat faci tem clabem num de
+                                        publiem perfirim nerit. Ehebus culicae iam inte omnius. Praesent dapibus, neque
+                                        id cursus faucibus, tortor neque egestas auguae, eu vulputate magna eros eu
+                                        erat. Aliquam erat volutpat.
+                                    </h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="about_second_section oe_structure pt48">
+                    <div class="row">
+                        <div class="row">
+                            <div class="col-md-1"/>
+                            <div class="col-md-10">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <img src="/theme_cobald/static/src/img/a1.png"
+                                             style="width:100%;height: 680px;"/>
+                                    </div>
+                                    <div class="col-md-1 col-1"/>
+                                    <div class="col-md-4 col-10">
+                                        <h3 class="text-uppercase common_h3 font-weight-bold pt64 pb48"
+                                            style="color:#2961c4;line-height: 1.5;letter-spacing: 3px;font-size:33px;">
+                                            Bezzieleres magna eros eu erat aliquam erat colutpat
+                                        </h3>
+                                        <h6 class="text-dark pb128" style="font-size:22px;line-height: 1.9;">
+                                            Ehebus culicae iam inte omnius? Cae postrun tracredetidi susulint ius
+                                            noveroOcae
+                                            conem popularem omnihicam iae prorare pulvil conu.
+                                        </h6>
+                                        <a href="/contact"
+                                           class="btn common_btn font-weight-bold text-uppercase s2_btn bg-white pt8 pb8 pl-5 pr-5"
+                                           style="border:1px solid #2961c4;color:#2961c4;border-radius: 0;font-size: 14px;letter-spacing: 2px;">
+                                            Contact
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="about_third_section oe_structure pt152">
+                    <div class="row">
+                        <div class="row">
+                            <div class="col-md-1"/>
+                            <div class="col-md-10">
+                                <div class="row">
+                                    <div class="col-md-6 phone_btn" style="display:none">
+                                        <img src="/theme_cobald/static/src/img/a2.png"
+                                             style="width:100%;height: 580px;"/>
+                                    </div>
+                                    <div class="col-1 phone_btn" style="display:none"/>
+                                    <div class="col-md-4 col-10">
+                                        <h3 class="text-uppercase common_h3 font-weight-bold pt64 pb48"
+                                            style="color:#2961c4;line-height: 1.5;letter-spacing: 3px;font-size:33px;">
+                                            Green &amp; Envaronmental
+                                        </h3>
+                                        <h6 class="text-dark pb88" style="font-size:22px;line-height: 1.9;">
+                                            Ehebus culicae iam inte omnius? Cae postrun tracredetidi susulint ius
+                                            noveroOcae
+                                            conem popularem omnihicam iae prorare pulvil conu.
+                                        </h6>
+                                        <a href="/about-details"
+                                           class="btn common_btn font-weight-bold text-uppercase s2_btn bg-white pt8 pb8 pl-5 pr-5"
+                                           style="border:1px solid #2961c4;color:#2961c4;border-radius: 0;font-size: 14px;letter-spacing: 2px;">
+                                            Merken
+                                        </a>
+                                    </div>
+                                    <div class="col-md-2"/>
+                                    <div class="col-md-6 desktop_btn">
+                                        <img src="/theme_cobald/static/src/img/a2.png"
+                                             style="width:100%;height: 680px;"/>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="about_forth_section oe_structure pt152 mb128">
+                    <div class="row">
+                        <div class="row">
+                            <div class="col-md-1"/>
+                            <div class="col-md-10">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <img src="/theme_cobald/static/src/img/a3.png"
+                                             style="width:100%;height: 680px;"/>
+                                    </div>
+                                    <div class="col-md-1 col-1"/>
+                                    <div class="col-md-4 col-10">
+                                        <h3 class="text-uppercase common_h3 font-weight-bold pt64 pb48"
+                                            style="color:#2961c4;line-height: 1.5;letter-spacing: 3px;font-size:33px;">
+                                            Manga Eros eu erot aliquam erat colutpat
+                                        </h3>
+                                        <h6 class="text-dark pb128" style="font-size:22px;line-height: 1.9;">
+                                            Ehebus culicae iam inte omnius? Cae postrun tracredetidi susulint ius
+                                            noveroOcae
+                                            conem popularem omnihicam iae prorare pulvil conu.
+                                        </h6>
+                                        <span class="main_btn_span">
+                                            <a href="/contact"
+                                               class="btn font-weight-bold text-uppercase s2_btn bg-white pt8 pb8 pl-5 pr-5"
+                                               style="border:1px solid #2961c4;color:#2961c4;border-radius: 0;font-size: 14px;letter-spacing: 2px;">
+                                                Contact
+                                            </a>
+                                            <a href="#"
+                                               class="btn font-weight-bold text-uppercase text-white s2_btn pt8 pb8 pl-3 pr-2"
+                                               style="border:1px solid #2961c4;background:#2961c4;border-radius: 0;font-size: 14px;letter-spacing: 2px;position: relative;left: -4px;">
+                                                <i class="fa fa-instagram"/>
+                                            </a>
+                                            <a href="#"
+                                               class="btn font-weight-bold text-uppercase text-white s2_btn pt8 pb8 pl-3 pr-2"
+                                               style="border:1px solid #2961c4;background:#2961c4;border-radius: 0;font-size: 14px;letter-spacing: 2px;position: relative;left: -8px;">
+                                                <i class="fa fa-linkedin"/>
+                                            </a>
+                                            <a href="#"
+                                               class="btn font-weight-bold text-uppercase text-white s2_btn pt8 pb8 pl-3 pr-3"
+                                               style="border:1px solid #2961c4;background:#2961c4;border-radius: 0;font-size: 14px;letter-spacing: 2px;position: relative;left: -12px;">
+                                                <i class="fa fa-facebook"/>
+                                            </a>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="about_fifth_section oe_structure desktop_btn" style="background:#f7f7f7;">
+                    <div class="row">
+                        <div class="col-md-1 col-1"/>
+                        <div class="col-md-10 col-10">
+                            <h3 class="text-uppercase common_h3 text-center font-weight-bold pt48 pb64"
+                                style="color:#2961c4;line-height: 1.5;letter-spacing: 3px;font-size:33px;">
+                                voor wie?
+                            </h3>
+                            <div class="row mb112">
+                                <div class="col-md-3">
+                                    <h3 class="pb16" style="color:#2961c4;line-height: 1.5;">
+                                        Dealers
+                                    </h3>
+                                    <h6 class="pb16 pr-3" style="line-height: 1.5;">
+                                        Voorschrijvers project info aanvragen, Pelentesque odio nisi, euismod in,
+                                        pharetra a
+                                    </h6>
+                                    <a href="#"
+                                       class="btn font-weight-bold text-uppercase s2_btn bg-white pl-4 pr-4"
+                                       style="border:1px solid #2961c4;color:#2961c4;border-radius: 0;font-size: 14px;letter-spacing: 2px;">
+                                        cta
+                                    </a>
+                                </div>
+                                <div class="col-md-3">
+                                    <h3 class="pb16" style="color:#2961c4;line-height: 1.5;">
+                                        Fabrikanten
+                                    </h3>
+                                    <h6 class="pb16 pr-3" style="line-height: 1.5;">
+                                        Voorschrijvers project info aanvragen, Pelentesque odio nisi, euismod in,
+                                        pharetra a
+                                    </h6>
+                                    <a href="#"
+                                       class="btn font-weight-bold text-uppercase s2_btn bg-white pl-4 pr-4"
+                                       style="border:1px solid #2961c4;color:#2961c4;border-radius: 0;font-size: 14px;letter-spacing: 2px;">
+                                        cta
+                                    </a>
+                                </div>
+                                <div class="col-md-3">
+                                    <h3 class="pb16" style="color:#2961c4;line-height: 1.5;">
+                                        Voorschrijvers
+                                    </h3>
+                                    <h6 class="pb16 pr-3" style="line-height: 1.5;">
+                                        Voorschrijvers project info aanvragen, Pelentesque odio nisi, euismod in,
+                                        pharetra a
+                                    </h6>
+                                    <a href="#"
+                                       class="btn font-weight-bold text-uppercase s2_btn bg-white pl-4 pr-4"
+                                       style="border:1px solid #2961c4;color:#2961c4;border-radius: 0;font-size: 14px;letter-spacing: 2px;">
+                                        cta
+                                    </a>
+                                </div>
+                                <div class="col-md-3">
+                                    <h3 class="pb16" style="color:#2961c4;line-height: 1.5;">
+                                        Consumenten
+                                    </h3>
+                                    <h6 class="pb16 pr-3" style="line-height: 1.5;">
+                                        Voorschrijvers project info aanvragen, Pelentesque odio nisi, euismod in,
+                                        pharetra a
+                                    </h6>
+                                    <a href="#"
+                                       class="btn font-weight-bold text-uppercase s2_btn bg-white pl-4 pr-4"
+                                       style="border:1px solid #2961c4;color:#2961c4;border-radius: 0;font-size: 14px;letter-spacing: 2px;">
+                                        cta
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="about_fifth_section oe_structure phone_btn pt16 pb88"
+                         style="background:#f7f7f7;display:none;">
+                    <div class="row">
+                        <div class="col-md-1 col-1"/>
+                        <div class="col-md-10 col-10">
+                            <h3 class="text-uppercase common_h3 font-weight-bold pt64 pb32"
+                                style="color:#2961c4;line-height: 1.5;letter-spacing: 3px;font-size:33px;">
+                                project lorem ipsum
+                            </h3>
+                            <h6 class="text-dark pb48" style="font-size:22px;line-height: 1.9;">
+                                Voorschrijvers project info aanvragen, Pelentesque odio nisi, euismod in,
+                                pharetra a
+                            </h6>
+                            <a href="#"
+                               class="btn font-weight-bold ml-4 text-uppercase s2_btn bg-white pt8 pb8 pl-5 pr-5"
+                               style="border:1px solid #2961c4;color:#2961c4;border-radius: 0;font-size: 14px;letter-spacing: 2px;">
+                                Info aanvragen
+                            </a>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </t>
+    </template>
+
+    <template id="about_details_template" name="About Details">
+        <t t-call="website.layout">
+            <div id="wrap" class="oe_structure oe_empty about_detail_page">
+                <section class="ab_first_section"
+                         style="background-image: url('/theme_cobald/static/src/img/about.png');">
+                    <div class="row">
+                        <div class="col-md-3 col-1"/>
+                        <div class="col-md-6 col-10">
+                            <span class="hr_top" style="position: absolute;top: 282px;">top border</span>
+                        </div>
+                    </div>
+                </section>
+                <section class="ab_second_section">
+                    <div class="row">
+                        <div class="col-md-3 col-1"/>
+                        <div class="col-md-6 col-10">
+                            <h3 class="text-uppercase common_h3 mb0 font-weight-bold pt64 pb48"
+                                style="color:#2961c4;line-height: 1.5;letter-spacing: 3px;font-size:33px;width: 65%;">
+                                bezielers manga eros eu erat aliquam erat volutpat
+                            </h3>
+                        </div>
+                    </div>
+                </section>
+                <section class="ab_third_section">
+                    <div class="row">
+                        <div class="col-md-3 col-1">
+                            <span class="hr_top d-none d-sm-block" style="position: absolute;top: 50px;left: 70px;">top border</span>
+                        </div>
+                        <div class="col-md-6 col-10">
+                            <h6 class="text-dark" style="font-size:22px;line-height: 1.9;">
+                                Ehebus culicae iam inte omnius? Cae postrun tracredetidi susulint ius noveroOcae conem
+                                popularem omnihicam iae prorare pulvil conu Lorem ipsum dolor sit amet, consectetuer
+                                adipiscing elit. Phasellus hendrerit. Pellentesque aliquet nibh nec urna. In nisi neque,
+                                aliquet vel, dapibus id, mattis vel, nisi. Sed pretium, ligula sollicitudin laoreet
+                                viverra, tortor libero sodales teo, eget blandit nunc tortor eu nibh. Nullam mollis. Ut
+                                justo. Suspendisse potenti.
+                            </h6>
+                        </div>
+                    </div>
+                </section>
+                <section class="ab_forth_section">
+                    <div class="row">
+                        <div class="col-md-3 col-1"/>
+                        <div class="col-md-6 col-10">
+                            <h6 class="text-dark pt48" style="font-size:22px;line-height: 1.9;">
+                                Sed egestas ante et vulputate volutpat, eros pede semper est, vitae luctus metus libero
+                                eu augue. Morbi purus libero, faucibus adipiscing. comodo quis, gravida id, est. Sed
+                                lectus. Praesent elementum hendrerit tortor. Sed semper lorem at felis. Vestibulum
+                                volutpat, lacus a ultrices sagittis, mi neque euismod dui, eu pulvina nunc sapien ornare
+                                nisl. Phasellus pede arcu, dapibus eu, fermentum et, dapibus sed, urna.
+                            </h6>
+                        </div>
+                        <div class="col-md-3 col-1">
+                            <span class="hr_top2 d-none d-sm-block" style="position: absolute;top: 140px;right: 70px;">top border</span>
+                        </div>
+                    </div>
+                </section>
+                <section class="ab_fifth_section">
+                    <div class="row">
+                        <div class="col-md-3 col-1">
+                            <span class="hr_top2 d-none d-sm-block" style="position: absolute;top: 150px;right: 70px;">top border</span>
+                        </div>
+                        <div class="col-md-6 col-10">
+                            <h6 class="text-dark pt48" style="font-size:22px;line-height: 1.9;">
+                                Morbi interdum mollis sapien. Sed ac risus. Phasellus lacinia, magna a ullamcorper
+                                laoreet, lectus arcu pulvinar risus, vitae facilisis libero dolor a purus. Sed vel
+                                lacus. Mauris nibh felis, adipiscing varius, adipiscing in, lacinia vel, tellus.
+                                Suspendisse ac urna. Etiam. pellentesque mauris ut lectus. Nunc tellus ante, mattis
+                                eget, gravida vitae, ultricies ac, leo. Integer leo pede, ornare a, lacinia eu,
+                                vulputate vel, nisl.
+                            </h6>
+                        </div>
+                    </div>
+                </section>
+                <section class="ab_forth_section">
+                    <div class="row">
+                        <div class="col-md-3 col-1"/>
+                        <div class="col-md-6 col-10">
+                            <h6 class="text-dark pt48" style="font-size:22px;line-height: 1.9;">
+                                Suspendisse mauris. Fusce accumsan mollis eros. Pellentesque a diam sit amet mi
+                                ullamcorper vehicula. Integer adipiscing risus a sem. Nullam quis massa sit amet nibh
+                                viverra malesuada. Nunc sem lacus, accumsan quis, faucibus non, congue vel, arcu. Ut
+                                scelerisque hendrerit tellus. Integer sagittis. Vivamus a mauris eget arcu gravida
+                                tristique. Nunc iaculis mi in ante. Vivamus imperdiet nibh feugiat est
+                            </h6>
+                        </div>
+                        <div class="col-md-3 col-1">
+                            <span class="hr_top d-none d-sm-block" style="position: absolute;top: 200px;left: 70px;">top border</span>
+                        </div>
+                    </div>
+                </section>
+                <section class="ab_last_section pt16 pb48 mt64" style="background:#f7f7f7;">
+                    <div class="row">
+                        <div class="col-md-3 col-1"/>
+                        <div class="col-md-6 col-10 text-center">
+                            <h3 class="text-uppercase common_h3 font-weight-bold pt64"
+                                style="color:#2961c4;line-height: 1.5;letter-spacing: 3px;font-size:33px;">
+                                project lorem ipsum
+                            </h3>
+                            <h6 class="text-dark pb16" style="font-size:22px;line-height: 1.9;">
+                                Voorschrijvers project info aanvragen, Pelentesque odio nisi, euismod in,
+                                pharetra a
+                            </h6>
+                            <a href="#"
+                               class="btn font-weight-bold text-uppercase s2_btn bg-white pl-4 pr-4"
+                               style="border:1px solid #2961c4;color:#2961c4;border-radius: 0;font-size: 14px;letter-spacing: 2px;">
+                                info aanvragen
+                            </a>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </t>
+    </template>
+
+</odoo>

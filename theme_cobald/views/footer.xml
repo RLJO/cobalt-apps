@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <!-- Footer templates -->
+    <template id="footer_layout_1" inherit_id="website.footer_custom">
+        <xpath expr="//div[@id='footer']" position="replace">
+            <div id="footer" class="oe_structure oe_structure_solo">
+
+                <section class="custom_footer d-block d-sm-none" style="background:#343434;">
+                    <div class="row">
+                        <div class="col-12" style="background:#5e5e5e">
+                            <div class="row">
+                                <div class="col-12 text-center">
+                                    <h6 class="text-white text-center pt40 pb24" style="font-size:20px;">
+                                        <i class="fa fa-instagram mr-5"></i>
+                                        <i class="fa fa-linkedin mr-5"></i>
+                                        <i class="fa fa-facebook"></i>
+                                    </h6>
+                                </div>
+                            </div>
+                            <div class="row ml-4">
+                                <span class="footer_top" style="position: relative;top: 12px;">bor</span>
+                                <h6 class="text-white font-weight-bold text-uppercase"
+                                    style="font-size:14px;position: relative;top: 25px;left: -23px;">
+                                    stay in touch
+                                </h6>
+                            </div>
+                            <div class="row pb56">
+                                <div class="col-7 text-white">
+                                    <input class="form-control footer_input p-0 mt40 ml-4"
+                                           placeholder="E-mail address"/>
+                                </div>
+                                <div class="col-5">
+                                    <button class="footer_btn text-uppercase font-weight-bold" style="top: 46px;">
+                                        send
+                                        <i class="fa fa-angle-right text-white ml-3 footer_btn_icon"/>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="row ml-2 pb48">
+                                <div class="col-7">
+                                    <h3 class="text-white font-weight-bold pt40" style="font-size: 31px;">
+                                        cobald
+                                    </h3>
+                                    <h6 class="text-white pt16" style="font-size:14px;line-height: 2;">
+                                        Logo of YourCompany Contact informatie Donec nec justo felis facilisis
+                                        fermentu Dealer worden?
+                                    </h6>
+                                </div>
+                                <div class="col-5">
+                                    <h6 class="text-white font-weight-bold text-uppercase"
+                                        style="font-size:14px;padding-top: 54px;">
+                                        legel
+                                    </h6>
+                                    <h6 class="text-white pt24" style="font-size:14px;line-height: 1;">
+                                        <a href="#" class="text-white">
+                                            Cookie policy
+                                        </a>
+                                    </h6>
+                                    <h6 class="text-white" style="font-size:14px;line-height: 1;">
+                                        <a href="#" class="text-white">
+                                            GDPR
+                                        </a>
+                                    </h6>
+                                    <h6 class="text-white" style="font-size:14px;line-height: 1;">
+                                        <a href="#" class="text-white">
+                                            Disclaimer
+                                        </a>
+                                    </h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="custom_footer d-none d-sm-block" style="background:#343434;">
+                    <div class="row">
+                        <div class="col-md-1"/>
+                        <div class="col-md-10 pt40 pb40">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <div class="row">
+                                        <div class="col-md-4">
+                                            <img src="/theme_cobald/static/src/img/logo.png"
+                                                 style="width:100%;height: 100px;"/>
+                                        </div>
+                                        <div class="col-md-8">
+                                            <h3 class="text-white font-weight-bold pt32">
+                                                cobald
+                                            </h3>
+                                            <h6 class="text-white pt64" style="font-size:14px;line-height: 2;">
+                                                Logo of YourCompany Contact informatie Donec nec justo felis facilisis
+                                                fermentu Dealer worden?
+                                            </h6>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-2">
+                                    <h6 class="text-white font-weight-bold text-uppercase"
+                                        style="font-size:14px;padding-top: 45px;">
+                                        <span class="footer_top mr-4" style="position:relative;top:12px;">bor</span>
+                                        legel
+                                    </h6>
+                                    <h6 class="text-white pt64 ml-5" style="font-size:14px;line-height: 2;">
+                                        <a href="#" class="text-white">
+                                            Cookie policy
+                                        </a>
+                                    </h6>
+                                    <h6 class="text-white ml-5" style="font-size:14px;line-height: 2;">
+                                        <a href="#" class="text-white">
+                                            GDPR
+                                        </a>
+                                    </h6>
+                                    <h6 class="text-white ml-5" style="font-size:14px;line-height: 2;">
+                                        <a href="#" class="text-white">
+                                            Disclaimer
+                                        </a>
+                                    </h6>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="row pl-3 pr-3 pb32" style="background:#5e5e5e">
+                                        <div class="col-md-4">
+                                            <h6 class="text-white font-weight-bold text-uppercase"
+                                                style="font-size:14px;padding-top: 45px;">
+                                                <span class="footer_top mr-4" style="position:relative;top:12px;">bor
+                                                </span>
+                                                SOCIAL
+                                            </h6>
+                                            <h6 class="text-white pt64 ml-5" style="font-size:14px;line-height: 2;">
+                                                <a href="#" class="text-white">
+                                                    Facebook
+                                                </a>
+                                            </h6>
+                                            <h6 class="text-white ml-5" style="font-size:14px;line-height: 2;">
+                                                <a href="#" class="text-white">
+                                                    Linkdin
+                                                </a>
+                                            </h6>
+                                            <h6 class="text-white ml-5" style="font-size:14px;line-height: 2;">
+                                                <a href="#" class="text-white">
+                                                    Insstagram
+                                                </a>
+                                            </h6>
+                                        </div>
+                                        <div class="col-md-5 text-white">
+                                            <h6 class="text-white font-weight-bold text-uppercase"
+                                                style="font-size:14px;padding-top: 45px;">
+                                                <span class="footer_top mr-4" style="position:relative;top:12px;">bor
+                                                </span>
+                                                stay in touch
+                                            </h6>
+                                            <input class="form-control footer_input p-0 mt64 ml-5"
+                                                   placeholder="E-mail address"/>
+                                            <input class="form-control footer_input p-0 mt16 ml-5"
+                                                   placeholder="Choose a subject"/>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <button class="footer_btn text-uppercase font-weight-bold">
+                                                send
+                                                <i class="fa fa-angle-right text-white ml-3 footer_btn_icon"/>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+            </div>
+        </xpath>
+    </template>
+
+</odoo>

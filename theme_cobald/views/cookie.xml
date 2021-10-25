@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <template id="cookie_template" name="Cookie">
+        <t t-call="website.layout">
+            <div id="wrap" class="oe_structure oe_empty about_detail_page">
+                <section class="ab_second_section">
+                    <div class="row">
+                        <div class="col-md-3 col-1"/>
+                        <div class="col-md-6 col-10">
+                            <h3 class="text-uppercase common_h3 mb0 font-weight-bold pt64 pb48"
+                                style="color:#2961c4;line-height: 1.5;letter-spacing: 3px;font-size:33px;width: 65%;">
+                                Aenean dignissim felis
+                            </h3>
+                        </div>
+                    </div>
+                </section>
+                <section class="ab_third_section">
+                    <div class="row">
+                        <div class="col-md-3 col-1"/>
+                        <div class="col-md-6 col-10">
+                            <h6 class="text-black font-weight-bold pt48" style="font-size:22px;line-height: 1.9;">
+                                Lorem ipsum dolor sit amet
+                            </h6>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-3 col-1">
+                            <span class="hr_top d-none d-sm-block" style="position: absolute;top: 50px;left: 70px;">top
+                                border
+                            </span>
+                        </div>
+                        <div class="col-md-6 col-10">
+                            <h6 class="text-dark" style="font-size:22px;line-height: 1.9;">
+                                consectetuer adipiscing elit. Phasellus hendrerit. Pellentesque aliquet nibh nec urna.
+                                In nisi neque, aliquet vel, dapibus id, mattis vel, nisi. ed pretium, ligula
+                                sollicitudin laoreet viverra, tortor libero sodales. lagreet leo, eget blandit nunc
+                                tortor eu nibh. Nullam mollis. Ut justo. Suspendisse potenti.
+                            </h6>
+                        </div>
+                    </div>
+                </section>
+                <section class="ab_forth_section">
+                    <div class="row">
+                        <div class="col-md-3 col-1"/>
+                        <div class="col-md-6 col-10">
+                            <h6 class="text-dark pt48" style="font-size:22px;line-height: 1.9;">
+                                Sed egestas, ante et vulputate volutpat, eros pede semper est, vitae luctus metus libero
+                                eu augue. Morbi purus libero, faucibus adipiscing. commodo quis, gravida id, est. Sed
+                                lectus. Praesent elementum hendrerit tortor. Sed semper lorem at felis. Vestibulum
+                                volutpat, lacus a ultrices sagittis, mi' neque euismod dui, eu pulvinar nunc sapien
+                                ornare nisl. Phasellus pede arcu, dapibus eu, fermentum et, dapibus sed, urna.
+                            </h6>
+                        </div>
+                        <div class="col-md-3 col-1">
+                            <span class="hr_top2 d-none d-sm-block" style="position: absolute;top: 140px;right: 70px;">
+                                top border
+                            </span>
+                        </div>
+                    </div>
+                </section>
+                <section class="ab_fifth_section">
+                    <div class="row">
+                        <div class="col-md-3 col-1">
+                            <span class="hr_top2 d-none d-sm-block" style="position: absolute;top: 150px;right: 70px;">
+                                top border
+                            </span>
+                        </div>
+                        <div class="col-md-6 col-10">
+                            <h6 class="text-dark pt48" style="font-size:22px;line-height: 1.9;">
+                                Morbi interdum mollis sapien. Sed ac risus. Phasellus lacinia, magna a ullamcorper
+                                laoreet, lectus arcu pulvinar risus, vitae facilisis libero. dolor a purus, Sed vel
+                                lacus. Mauris nibh felis, adipiscing varius, adipiscing in, lacinia vel, tellus.
+                                Suspendisse ac urna. Etia pellentesque mauris ut lectus. Nunc tellus ante, mattis eget
+                                gravida vitae, ultricies ac, leo. Integer leo pede, ornare a, lacinia eu vulputate vel
+                                nisl
+                            </h6>
+                        </div>
+                    </div>
+                </section>
+                <section class="ab_forth_section">
+                    <div class="row">
+                        <div class="col-md-3 col-1"/>
+                        <div class="col-md-6 col-10">
+                            <h6 class="text-dark pt48" style="font-size:22px;line-height: 1.9;">
+                                Suspendisse mauris. Fusce accumsan mollis eros. Pellentesque a díam sit amet mi
+                                ullamcorper vehicula. Integer adipiscing risus a sem. Nullam quis massa sit amet nibh
+                                viverra malesuada. Nunc sem lacus, accumsan quis, faucibus non, congue vel, arcu. Ut
+                                scelerisque hendrerit tellus. Integer sagittis. Vivamus a mauris eget arcu gravida
+                                tristique. Nunc iaculis mi in ante Vivamus imperdiet nibh feugiat est
+                            </h6>
+                        </div>
+                        <div class="col-md-3 col-1">
+                            <span class="hr_top d-none d-sm-block" style="position: absolute;top: 200px;left: 70px;">top
+                                border
+                            </span>
+                        </div>
+                    </div>
+                </section>
+                <section class="ab_last_section pt16 pb88 mt64">
+                    <div class="row">
+                        <div class="col-md-3 col-1"/>
+                        <div class="col-md-6 col-10 pl-5 pr-5 pb48" style="background:#2961c4;">
+                            <h3 class="text-white pt40"
+                                style="line-height: 1.5;letter-spacing: 3px;font-size:33px;">
+                                Blokje
+                            </h3>
+                            <h6 class="text-white pb40 pt40" style="font-size:17px;line-height: 2;">
+                                Ehebus culicae iam inte omnius? Cae postrun tracredetidi susulint ius. Lorem ipsum dolor
+                                sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam
+                                malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere
+                                a, pede
+                            </h6>
+                            <a href="#"
+                               class="btn font-weight-bold text-uppercase s2_btn bg-white pl-5 pr-5"
+                               style="color:#2961c4;border-radius: 0;font-size: 14px;letter-spacing: 2px;">
+                                Button
+                            </a>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </t>
+    </template>
+
+</odoo>

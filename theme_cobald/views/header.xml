@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <template id="iq_header_popup" inherit_id="portal.frontend_layout">
+        <xpath expr="//header" position="before">
+            <div class="modal menu_model right fade" id="myModal2" tabindex="-1" role="dialog"
+                 aria-labelledby="myModalLabel2">
+                <div class="modal-dialog" role="document" style="margin: 0 !important;">
+                    <div class="modal-content">
+
+                        <div class="border-0"
+                             style="background: #2961c4;">
+                            <div class="row p-3">
+                                <div class="col-8 text-left">
+                                    <a href="/" class="navbar-brand logo">
+                                        <img t-att-src="'/logo.png?company=%s' % res_company.id"
+                                             t-att-alt="'Logo of %s' % res_company.name"
+                                             t-att-title="res_company.name"
+                                             style="width: 100%;"/>
+                                    </a>
+                                </div>
+                                <div class="col-4 text-white text-right">
+                                    <button type="button" class="close"
+                                            data-dismiss="modal"
+                                            aria-label="Close" id="close_model">
+                                        <i class="fa fa-times text-white"/>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="modal-body text-white text-center font-weight-bold">
+                            <div id="top_menu_collapse"
+                                 class="collapse navbar-collapse order-last order-lg-0"
+                                 style="display: inline-block !important;">
+                                <t t-call="website.navbar_nav">
+                                    <t t-set="_nav_class" t-value="'flex-grow-1'"/>
+                                    <!-- Menu -->
+                                    <t t-foreach="website.menu_id.child_id"
+                                       t-as="submenu">
+                                        <t t-call="website.submenu">
+                                            <t t-set="item_class"
+                                               t-value="'nav-item'"/>
+                                            <t t-set="link_class"
+                                               t-value="'nav-link'"/>
+                                        </t>
+                                    </t>
+                                </t>
+                            </div>
+                            <div class="pt128" style="font-size: 12px;">
+                                <t t-foreach="languages" t-as="lg">
+                                    <t t-if="lg[0] == 'en_US'">
+                                        <span>
+                                            <a t-att-href="url_for(request.httprequest.path + '?' + keep_query(), lang_code=lg[0])"
+                                               t-attf-class="js_header_lang_phone #{'active' if lg[0] == request.env.lang else '' }"
+                                               t-att-data-url_code="lg[1]">
+                                                EN
+                                                <span class="ml-4">|</span>
+                                            </a>
+                                        </span>
+                                    </t>
+                                </t>
+                                <t t-foreach="languages" t-as="lg">
+                                    <t t-if="lg[0] == 'fr_FR'">
+                                        <span class="ml-4">
+                                            <a t-att-href="url_for(request.httprequest.path + '?' + keep_query(), lang_code=lg[0])"
+                                               t-attf-class="js_header_lang_phone #{'active' if lg[0] == request.env.lang else '' }"
+                                               t-att-data-url_code="lg[1]">
+                                                FR
+                                                <span class="ml-4 mr-4">|</span>
+                                            </a>
+                                        </span>
+                                    </t>
+                                </t>
+                                <t t-foreach="languages" t-as="lg">
+                                    <t t-if="lg[0] == 'nl_NL'">
+                                        <span class="mr-1">
+                                            <a t-att-href="url_for(request.httprequest.path + '?' + keep_query(), lang_code=lg[0])"
+                                               t-attf-class="js_header_lang_phone #{'active' if lg[0] == request.env.lang else '' }"
+                                               t-att-data-url_code="lg[1]">
+                                                NL
+
+                                            </a>
+                                        </span>
+                                    </t>
+                                </t>
+                                <!--                                                                    <span class="text-white">-->
+                                <!--                                                                        EN-->
+                                <!--                                                                        <span class="ml-4">|</span>-->
+                                <!--                                                                    </span>-->
+                                <!--                                                                    <span class="ml-4" style="color:#9c9c9c;">-->
+                                <!--                                                                        FR-->
+                                <!--                                                                        <span class="ml-4 mr-4">|</span>-->
+                                <!--                                                                    </span>-->
+                                <!--                                                                    <span class="mr-1" style="color:#9c9c9c;">-->
+                                <!--                                                                        NL-->
+                                <!--                                                                    </span>-->
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </xpath>
+    </template>
+
+    <template id="iq_header" inherit_id="portal.frontend_layout">
+        <xpath expr="//header/nav" position="replace">
+
+            <nav data-name="Navbar"
+                 class="campaign_nav navbar navbar-expand-lg navbar-light o_colored_level o_cc pt16 pb16">
+
+                <div id="top_menu_container" class="w-100">
+                    <div class="row no-gutters header_special pt8 ml-3 mr-3">
+                        <div class="col-md-12 menu_visible">
+                            <div class="row">
+                                <div class="col-md-2 col-6 logo_ipad">
+                                    <a href="/" class="navbar-brand logo">
+                                        <img t-att-src="'/logo.png?company=%s' % res_company.id"
+                                             t-att-alt="'Logo of %s' % res_company.name" t-att-title="res_company.name"
+                                             style="width: 100%;"/>
+                                    </a>
+                                </div>
+                                <div class="oe_structure oe_structure_solo" id="oe_structure_header_default_1"/>
+                                <div class="col-md-9 pr-5 text-right nav_toggle col-4 desktop_header">
+                                    <!-- Navbar Collapse -->
+                                    <div id="top_menu_collapse" class="collapse navbar-collapse order-last order-lg-0"
+                                         style="display: inline-block !important;">
+                                        <t t-call="website.navbar_nav">
+                                            <t t-set="_nav_class" t-value="'flex-grow-1'"/>
+                                            <!-- Menu -->
+                                            <t t-foreach="website.menu_id.child_id" t-as="submenu">
+                                                <t t-call="website.submenu">
+                                                    <t t-set="item_class" t-value="'nav-item'"/>
+                                                    <t t-set="link_class" t-value="'nav-link'"/>
+                                                </t>
+                                            </t>
+                                            <!-- Sign In -->
+                                            <t t-call="portal.placeholder_user_sign_in">
+                                                <t t-set="_item_class" t-value="'nav-item ml-lg-auto'"/>
+                                                <t t-set="_link_class" t-value="'nav-link font-weight-bold'"/>
+                                            </t>
+                                            <!-- User Dropdown -->
+                                            <t t-call="portal.user_dropdown">
+                                                <t t-set="_user_name" t-value="true"/>
+                                                <t t-set="_item_class" t-value="'nav-item dropdown ml-lg-auto'"/>
+                                                <t t-set="_link_class" t-value="'nav-link font-weight-bold'"/>
+                                            </t>
+                                        </t>
+                                    </div>
+                                    <!-- Button -->
+                                </div>
+                                <div class="col-md-1 text-right desktop_header pt8">
+                                    <!-- Language Selector -->
+                                    <t t-call="website.placeholder_header_language_selector">
+                                        <t t-set="_div_classes" t-value="'ml-2'"/>
+                                    </t>
+                                    <span style="font-size: 12px;">
+                                        <t t-foreach="languages" t-as="lg">
+                                            <t t-if="lg[0] == 'en_US'">
+                                                <span>
+                                                    <a t-att-href="url_for(request.httprequest.path + '?' + keep_query(), lang_code=lg[0])"
+                                                       t-attf-class="js_header_lang #{'active' if lg[0] == request.env.lang else '' }"
+                                                       t-att-data-url_code="lg[1]">
+                                                        EN
+                                                        <span class="ml-1">|</span>
+                                                    </a>
+                                                </span>
+                                            </t>
+                                        </t>
+                                        <t t-foreach="languages" t-as="lg">
+                                            <t t-if="lg[0] == 'fr_FR'">
+                                                <span class="ml-1">
+                                                    <a t-att-href="url_for(request.httprequest.path + '?' + keep_query(), lang_code=lg[0])"
+                                                       t-attf-class="js_header_lang #{'active' if lg[0] == request.env.lang else '' }"
+                                                       t-att-data-url_code="lg[1]">
+                                                        FR
+                                                        <span class="ml-1 mr-1">|</span>
+                                                    </a>
+                                                </span>
+                                            </t>
+                                        </t>
+                                        <t t-foreach="languages" t-as="lg">
+                                            <t t-if="lg[0] == 'nl_NL'">
+                                                <span class="mr-1">
+                                                    <a t-att-href="url_for(request.httprequest.path + '?' + keep_query(), lang_code=lg[0])"
+                                                       t-attf-class="js_header_lang #{'active' if lg[0] == request.env.lang else '' }"
+                                                       t-att-data-url_code="lg[1]">
+                                                        NL
+
+                                                    </a>
+                                                </span>
+                                            </t>
+                                        </t>
+                                    </span>
+                                    <!--                                    <span style="font-size: 12px;">-->
+                                    <!--                                        <span class="text-muted">-->
+                                    <!--                                            EN-->
+                                    <!--                                            <span class="ml-1">|</span>-->
+                                    <!--                                        </span>-->
+                                    <!--                                        <span class="ml-1" style="color:#d2d1d1;">-->
+                                    <!--                                            FR-->
+                                    <!--                                            <span class="ml-1 mr-1">|</span>-->
+                                    <!--                                        </span>-->
+                                    <!--                                        <span class="mr-1" style="color:#d2d1d1;">-->
+                                    <!--                                            NL-->
+                                    <!--                                        </span>-->
+                                    <!--                                    </span>-->
+                                </div>
+
+                                <!-- ======== Phone Header =========-->
+                                <div class="col-6 phone_header text-right">
+                                    <div class="row" style="display: inline-flex;">
+                                        <div class="phone_menu mr-3">
+                                            <!-- Sign In -->
+                                            <t t-call="portal.placeholder_user_sign_in">
+                                                <span class="span_signin">
+                                                    <t t-set="_item_class" t-value="'nav-item ml-lg-auto'"/>
+                                                    <t t-set="_link_class" t-value="'nav-link font-weight-bold'"/>
+                                                </span>
+                                            </t>
+                                            <!-- User Dropdown -->
+                                            <t t-call="portal.user_dropdown">
+                                                <t t-set="_user_name" t-value="true"/>
+                                                <t t-set="_item_class" t-value="'nav-item dropdown ml-lg-auto'"/>
+                                                <t t-set="_link_class" t-value="'nav-link font-weight-bold'"/>
+                                            </t>
+                                        </div>
+                                        <!-- Navbar Toggler -->
+                                        <div class="nav_bar mr-2">
+                                            <button type="button" class="btn p-0" data-toggle="modal"
+                                                    data-target="#myModal2" id="header_show_menu">
+                                                <i class="fa fa-bars"/>
+                                            </button>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </nav>
+
+        </xpath>
+    </template>
+
+</odoo>

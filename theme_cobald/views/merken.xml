@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <template id="merken_template" name="Merken">
+        <t t-call="website.layout">
+            <div id="wrap" class="oe_structure oe_empty merken_page">
+                <section class="merken_first_section mb152 oe_structure">
+                    <div class="row">
+                        <div class="col-md-1 col-1"/>
+                        <div class="col-md-10 col-12 mt112">
+                            <div class="row m_content">
+                                <div class="col-md-6">
+                                    <span class="hr_top">top border</span>
+                                    <h1 style="color:#2961c4;width: 30%;">
+                                        Merken dignissim felis.
+                                    </h1>
+                                </div>
+                                <div class="col-md-6 pl-5">
+                                    <h6 class="text-dark pt40" style="font-size:22px;line-height: 1.9;width: 65%;">
+                                        Ehebus culicae iam inte omnius? Cae postrun tracredetidi susulint ius
+                                        noveroOcae
+                                        conem popularem omnihicam iae prorare pulvil conu.
+                                    </h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="merken_second_section">
+                    <div class="row">
+                        <div class="col-md-1"/>
+                        <div class="col-md-10">
+                            <div class="row">
+                                <div class="col-md-6 px-5">
+
+                                    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="0">
+                                        <ol class="carousel-indicators">
+                                            <li data-target="#carouselExampleIndicators" data-slide-to="0"
+                                                class="active"></li>
+                                            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                                            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                                        </ol>
+                                        <div class="carousel-inner">
+                                            <div class="carousel-item active">
+                                                 <a href="/merken-details" class="btn font-weight-bold slide_btn pl-5 pr-5 pt8 pb8 text-dark">
+                                                    productnaam
+                                                </a>
+                                                        <img src="/theme_cobald/static/src/img/a1.png"
+                                                     style="width:100%;"/>
+                                            </div>
+                                            <div class="carousel-item">
+                                                 <a href="/merken-details" class="btn font-weight-bold slide_btn pl-5 pr-5 pt8 pb8 text-dark">
+                                                    productnaam
+                                                </a>
+                                                  <img src="/theme_cobald/static/src/img/a2.png"
+                                                     style="width:100%;"/>
+                                            </div>
+                                            <div class="carousel-item">
+                                                 <a href="/merken-details" class="btn font-weight-bold slide_btn pl-5 pr-5 pt8 pb8 text-dark">
+                                                    productnaam
+                                                </a>
+                                                  <img src="/theme_cobald/static/src/img/a3.png"
+                                                     style="width:100%;"/>
+                                            </div>
+                                        </div>
+                                        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button"
+                                           data-slide="prev">
+                                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                            <span class="sr-only">Previous</span>
+                                        </a>
+                                        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button"
+                                           data-slide="next">
+                                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                            <span class="sr-only">Next</span>
+                                        </a>
+                                    </div>
+
+                                    <div id="carouselExampleIndicators3" class="carousel slide mt96" data-ride="carousel" data-interval="0">
+                                        <ol class="carousel-indicators">
+                                            <li data-target="#carouselExampleIndicators3" data-slide-to="0"
+                                                class="active"></li>
+                                            <li data-target="#carouselExampleIndicators3" data-slide-to="1"></li>
+                                            <li data-target="#carouselExampleIndicators3" data-slide-to="2"></li>
+                                        </ol>
+                                        <div class="carousel-inner">
+                                            <div class="carousel-item active">
+                                                 <a href="/merken-details" class="btn font-weight-bold slide_btn pl-5 pr-5 pt8 pb8 text-dark">
+                                                    productnaam
+                                                </a>
+                                                        <img src="/theme_cobald/static/src/img/a1.png"
+                                                     style="width:100%;"/>
+                                            </div>
+                                            <div class="carousel-item">
+                                                 <a href="/merken-details" class="btn font-weight-bold slide_btn pl-5 pr-5 pt8 pb8 text-dark">
+                                                    productnaam
+                                                </a>
+                                                  <img src="/theme_cobald/static/src/img/a2.png"
+                                                     style="width:100%;"/>
+                                            </div>
+                                            <div class="carousel-item">
+                                                 <a href="/merken-details" class="btn font-weight-bold slide_btn pl-5 pr-5 pt8 pb8 text-dark">
+                                                    productnaam
+                                                </a>
+                                                  <img src="/theme_cobald/static/src/img/a3.png"
+                                                     style="width:100%;"/>
+                                            </div>
+                                        </div>
+                                        <a class="carousel-control-prev" href="#carouselExampleIndicators3" role="button"
+                                           data-slide="prev">
+                                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                            <span class="sr-only">Previous</span>
+                                        </a>
+                                        <a class="carousel-control-next" href="#carouselExampleIndicators3" role="button"
+                                           data-slide="next">
+                                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                            <span class="sr-only">Next</span>
+                                        </a>
+                                    </div>
+
+                                </div>
+                                <div class="col-md-6 mt160 px-5">
+                                <div id="carouselExampleIndicators2" class="carousel slide" data-ride="carousel" data-interval="0">
+                                        <ol class="carousel-indicators">
+                                            <li data-target="#carouselExampleIndicators2" data-slide-to="0"
+                                                class="active"></li>
+                                            <li data-target="#carouselExampleIndicators2" data-slide-to="1"></li>
+                                            <li data-target="#carouselExampleIndicators2" data-slide-to="2"></li>
+                                        </ol>
+                                        <div class="carousel-inner">
+                                            <div class="carousel-item active">
+                                                <a href="/merken-details" class="btn font-weight-bold slide_btn pl-5 pr-5 pt8 pb8 text-dark">
+                                                    productnaam
+                                                </a>
+                                                        <img src="/theme_cobald/static/src/img/a1.png"
+                                                     style="width:100%;"/>
+                                            </div>
+                                            <div class="carousel-item">
+                                                <a href="/merken-details" class="btn font-weight-bold slide_btn pl-5 pr-5 pt8 pb8 text-dark">
+                                                    productnaam
+                                                </a>
+                                                  <img src="/theme_cobald/static/src/img/a2.png"
+                                                     style="width:100%;"/>
+                                            </div>
+                                            <div class="carousel-item">
+                                                <a href="/merken-details" class="btn font-weight-bold slide_btn pl-5 pr-5 pt8 pb8 text-dark">
+                                                    productnaam
+                                                </a>
+                                                  <img src="/theme_cobald/static/src/img/a3.png"
+                                                     style="width:100%;"/>
+                                            </div>
+                                        </div>
+                                        <a class="carousel-control-prev" href="#carouselExampleIndicators2" role="button"
+                                           data-slide="prev">
+                                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                            <span class="sr-only">Previous</span>
+                                        </a>
+                                        <a class="carousel-control-next" href="#carouselExampleIndicators2" role="button"
+                                           data-slide="next">
+                                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                            <span class="sr-only">Next</span>
+                                        </a>
+                                    </div>
+
+                                    <div class="row mb96" style="width:100%;margin-left: 0px;">
+                                        <div class="carousel_merken_blue" style="width:100%;">
+                                            <div class="pl-5 pr-5 last_mkn"
+                                                 style="background:#2961c4;height:680px;margin-top:100px;">
+                                                <h3 class="common_h3 text-white pt64 pb64"
+                                                    style="line-height: 1.5;letter-spacing: 3px;font-size:33px;">
+                                                    CTA fabrikant
+                                                </h3>
+                                                <h6 class="text-white pb40" style="font-size:17px;line-height: 2;">
+                                                    Ehebus culicae iam inte omnius? Cae postrun tracredetidi susulint
+                                                    ius. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec
+                                                    odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis.
+                                                    Suspendisse urna nibh, viverra non, semper suscipit, posuere a,
+                                                    pede.
+                                                </h6>
+                                                <a href="#"
+                                                   class="btn text-uppercase font-weight-bold pl-4 pr-4 pt8 pb8"
+                                                   style="color:#2961c4;background: white;border-radius: 0;font-size: 14px;letter-spacing: 2px;">
+                                                    ook in ons gamma?
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+            </div>
+        </t>
+    </template>
+
+</odoo>
