@@ -104,6 +104,7 @@
                                         <p class="text-dark pt32" style="font-size:14px;">
                                             Enea
                                         </p>
+                                        <input name="enea" class="form-control mt24" style="height: 45px;"/>
                                     </a>
                                 </div>
                                 <div class="col-md-4">
@@ -112,6 +113,7 @@
                                         <p class="text-dark pt32" style="font-size:14px;">
                                             Ply
                                         </p>
+                                        <input name="ply" class="form-control mt24" style="height: 45px;"/>
                                     </a>
                                 </div>
                                 <div class="col-md-4">
@@ -120,6 +122,7 @@
                                         <p class="text-dark pt32" style="font-size:14px;">
                                             Escale
                                         </p>
+                                        <input name="escale" class="form-control mt24" style="height: 45px;"/>
                                     </a>
                                 </div>
                             </div>

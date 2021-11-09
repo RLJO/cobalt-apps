@@ -34,7 +34,8 @@
                             <div class="row">
                                 <div class="col-md-6 px-5">
 
-                                    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="0">
+                                    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel"
+                                         data-interval="0">
                                         <ol class="carousel-indicators">
                                             <li data-target="#carouselExampleIndicators" data-slide-to="0"
                                                 class="active"></li>
@@ -43,25 +44,34 @@
                                         </ol>
                                         <div class="carousel-inner">
                                             <div class="carousel-item active">
-                                                 <a href="/merken-details" class="btn font-weight-bold slide_btn pl-5 pr-5 pt8 pb8 text-dark">
+                                                <a href="/merken-details"
+                                                   class="btn font-weight-bold slide_btn pl-5 pr-5 pt8 pb8 text-dark">
                                                     productnaam
                                                 </a>
-                                                        <img src="/theme_cobald/static/src/img/a1.png"
-                                                     style="width:100%;"/>
+                                                <a href="/merken-details">
+                                                    <img src="/theme_cobald/static/src/img/a1.png"
+                                                         style="width:100%;"/>
+                                                </a>
                                             </div>
                                             <div class="carousel-item">
-                                                 <a href="/merken-details" class="btn font-weight-bold slide_btn pl-5 pr-5 pt8 pb8 text-dark">
+                                                <a href="/merken-details"
+                                                   class="btn font-weight-bold slide_btn pl-5 pr-5 pt8 pb8 text-dark">
                                                     productnaam
                                                 </a>
-                                                  <img src="/theme_cobald/static/src/img/a2.png"
-                                                     style="width:100%;"/>
+                                                <a href="/merken-details">
+                                                    <img src="/theme_cobald/static/src/img/a2.png"
+                                                         style="width:100%;"/>
+                                                </a>
                                             </div>
                                             <div class="carousel-item">
-                                                 <a href="/merken-details" class="btn font-weight-bold slide_btn pl-5 pr-5 pt8 pb8 text-dark">
+                                                <a href="/merken-details"
+                                                   class="btn font-weight-bold slide_btn pl-5 pr-5 pt8 pb8 text-dark">
                                                     productnaam
                                                 </a>
-                                                  <img src="/theme_cobald/static/src/img/a3.png"
-                                                     style="width:100%;"/>
+                                                <a href="/merken-details">
+                                                    <img src="/theme_cobald/static/src/img/a3.png"
+                                                         style="width:100%;"/>
+                                                </a>
                                             </div>
                                         </div>
                                         <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button"
@@ -76,7 +86,8 @@
                                         </a>
                                     </div>
 
-                                    <div id="carouselExampleIndicators3" class="carousel slide mt96" data-ride="carousel" data-interval="0">
+                                    <div id="carouselExampleIndicators3" class="carousel slide mt96"
+                                         data-ride="carousel" data-interval="0">
                                         <ol class="carousel-indicators">
                                             <li data-target="#carouselExampleIndicators3" data-slide-to="0"
                                                 class="active"></li>
@@ -85,33 +96,44 @@
                                         </ol>
                                         <div class="carousel-inner">
                                             <div class="carousel-item active">
-                                                 <a href="/merken-details" class="btn font-weight-bold slide_btn pl-5 pr-5 pt8 pb8 text-dark">
+                                                <a href="/merken-details"
+                                                   class="btn font-weight-bold slide_btn pl-5 pr-5 pt8 pb8 text-dark">
                                                     productnaam
                                                 </a>
-                                                        <img src="/theme_cobald/static/src/img/a1.png"
-                                                     style="width:100%;"/>
+                                                <a href="/merken-details">
+                                                    <img src="/theme_cobald/static/src/img/a1.png"
+                                                         style="width:100%;"/>
+                                                </a>
                                             </div>
                                             <div class="carousel-item">
-                                                 <a href="/merken-details" class="btn font-weight-bold slide_btn pl-5 pr-5 pt8 pb8 text-dark">
+                                                <a href="/merken-details"
+                                                   class="btn font-weight-bold slide_btn pl-5 pr-5 pt8 pb8 text-dark">
                                                     productnaam
                                                 </a>
-                                                  <img src="/theme_cobald/static/src/img/a2.png"
-                                                     style="width:100%;"/>
+                                                <a href="/merken-details">
+                                                    <img src="/theme_cobald/static/src/img/a2.png"
+                                                         style="width:100%;"/>
+                                                </a>
                                             </div>
                                             <div class="carousel-item">
-                                                 <a href="/merken-details" class="btn font-weight-bold slide_btn pl-5 pr-5 pt8 pb8 text-dark">
+                                                <a href="/merken-details"
+                                                   class="btn font-weight-bold slide_btn pl-5 pr-5 pt8 pb8 text-dark">
                                                     productnaam
                                                 </a>
-                                                  <img src="/theme_cobald/static/src/img/a3.png"
-                                                     style="width:100%;"/>
+                                                <a href="/merken-details">
+                                                    <img src="/theme_cobald/static/src/img/a3.png"
+                                                         style="width:100%;"/>
+                                                </a>
                                             </div>
                                         </div>
-                                        <a class="carousel-control-prev" href="#carouselExampleIndicators3" role="button"
+                                        <a class="carousel-control-prev" href="#carouselExampleIndicators3"
+                                           role="button"
                                            data-slide="prev">
                                             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                                             <span class="sr-only">Previous</span>
                                         </a>
-                                        <a class="carousel-control-next" href="#carouselExampleIndicators3" role="button"
+                                        <a class="carousel-control-next" href="#carouselExampleIndicators3"
+                                           role="button"
                                            data-slide="next">
                                             <span class="carousel-control-next-icon" aria-hidden="true"></span>
                                             <span class="sr-only">Next</span>
@@ -120,7 +142,8 @@
 
                                 </div>
                                 <div class="col-md-6 mt160 px-5">
-                                <div id="carouselExampleIndicators2" class="carousel slide" data-ride="carousel" data-interval="0">
+                                    <div id="carouselExampleIndicators2" class="carousel slide" data-ride="carousel"
+                                         data-interval="0">
                                         <ol class="carousel-indicators">
                                             <li data-target="#carouselExampleIndicators2" data-slide-to="0"
                                                 class="active"></li>
@@ -129,33 +152,44 @@
                                         </ol>
                                         <div class="carousel-inner">
                                             <div class="carousel-item active">
-                                                <a href="/merken-details" class="btn font-weight-bold slide_btn pl-5 pr-5 pt8 pb8 text-dark">
+                                                <a href="/merken-details"
+                                                   class="btn font-weight-bold slide_btn pl-5 pr-5 pt8 pb8 text-dark">
                                                     productnaam
                                                 </a>
-                                                        <img src="/theme_cobald/static/src/img/a1.png"
-                                                     style="width:100%;"/>
+                                                <a href="/merken-details">
+                                                    <img src="/theme_cobald/static/src/img/a1.png"
+                                                         style="width:100%;"/>
+                                                </a>
                                             </div>
                                             <div class="carousel-item">
-                                                <a href="/merken-details" class="btn font-weight-bold slide_btn pl-5 pr-5 pt8 pb8 text-dark">
+                                                <a href="/merken-details"
+                                                   class="btn font-weight-bold slide_btn pl-5 pr-5 pt8 pb8 text-dark">
                                                     productnaam
                                                 </a>
-                                                  <img src="/theme_cobald/static/src/img/a2.png"
-                                                     style="width:100%;"/>
+                                                <a href="/merken-details">
+                                                    <img src="/theme_cobald/static/src/img/a2.png"
+                                                         style="width:100%;"/>
+                                                </a>
                                             </div>
                                             <div class="carousel-item">
-                                                <a href="/merken-details" class="btn font-weight-bold slide_btn pl-5 pr-5 pt8 pb8 text-dark">
+                                                <a href="/merken-details"
+                                                   class="btn font-weight-bold slide_btn pl-5 pr-5 pt8 pb8 text-dark">
                                                     productnaam
                                                 </a>
-                                                  <img src="/theme_cobald/static/src/img/a3.png"
-                                                     style="width:100%;"/>
+                                                <a href="/merken-details">
+                                                    <img src="/theme_cobald/static/src/img/a3.png"
+                                                         style="width:100%;"/>
+                                                </a>
                                             </div>
                                         </div>
-                                        <a class="carousel-control-prev" href="#carouselExampleIndicators2" role="button"
+                                        <a class="carousel-control-prev" href="#carouselExampleIndicators2"
+                                           role="button"
                                            data-slide="prev">
                                             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                                             <span class="sr-only">Previous</span>
                                         </a>
-                                        <a class="carousel-control-next" href="#carouselExampleIndicators2" role="button"
+                                        <a class="carousel-control-next" href="#carouselExampleIndicators2"
+                                           role="button"
                                            data-slide="next">
                                             <span class="carousel-control-next-icon" aria-hidden="true"></span>
                                             <span class="sr-only">Next</span>

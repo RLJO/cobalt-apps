@@ -56,3 +56,7 @@ class Website(Website):
     def cookie_page(self, **kw):
         return request.render('theme_cobald.cookie_template', {})
 
+    @http.route('/cta', type='http', auth="public", website=True)
+    def cta_page(self, **kw):
+        return request.render('theme_cobald.cta_template', {})
+

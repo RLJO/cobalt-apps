@@ -103,6 +103,95 @@
                         </div>
                     </div>
                 </section>
+
+                <section class="about_forth_section oe_structure pt152">
+                    <div class="row">
+                        <div class="row">
+                            <div class="col-md-1"/>
+                            <div class="col-md-10">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <img src="/theme_cobald/static/src/img/a3.png"
+                                             style="width:100%;height: 680px;"/>
+                                    </div>
+                                    <div class="col-md-1 col-1"/>
+                                    <div class="col-md-4 col-10">
+                                        <h3 class="text-uppercase common_h3 font-weight-bold pt64 pb48"
+                                            style="color:#2961c4;line-height: 1.5;letter-spacing: 3px;font-size:33px;">
+                                            Manga Eros eu erot aliquam erat colutpat
+                                        </h3>
+                                        <h6 class="text-dark pb128" style="font-size:22px;line-height: 1.9;">
+                                            Ehebus culicae iam inte omnius? Cae postrun tracredetidi susulint ius
+                                            noveroOcae
+                                            conem popularem omnihicam iae prorare pulvil conu.
+                                        </h6>
+                                        <span class="main_btn_span">
+                                            <a href="/contact"
+                                               class="btn font-weight-bold text-uppercase s2_btn bg-white pt8 pb8 pl-5 pr-5"
+                                               style="border:1px solid #2961c4;color:#2961c4;border-radius: 0;font-size: 14px;letter-spacing: 2px;">
+                                                Contact
+                                            </a>
+                                            <a href="#"
+                                               class="btn font-weight-bold text-uppercase text-white s2_btn pt8 pb8 pl-3 pr-2"
+                                               style="border:1px solid #2961c4;background:#2961c4;border-radius: 0;font-size: 14px;letter-spacing: 2px;position: relative;left: -4px;">
+                                                <i class="fa fa-instagram"/>
+                                            </a>
+                                            <a href="#"
+                                               class="btn font-weight-bold text-uppercase text-white s2_btn pt8 pb8 pl-3 pr-2"
+                                               style="border:1px solid #2961c4;background:#2961c4;border-radius: 0;font-size: 14px;letter-spacing: 2px;position: relative;left: -8px;">
+                                                <i class="fa fa-linkedin"/>
+                                            </a>
+                                            <a href="#"
+                                               class="btn font-weight-bold text-uppercase text-white s2_btn pt8 pb8 pl-3 pr-3"
+                                               style="border:1px solid #2961c4;background:#2961c4;border-radius: 0;font-size: 14px;letter-spacing: 2px;position: relative;left: -12px;">
+                                                <i class="fa fa-facebook"/>
+                                            </a>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="about_third_section oe_structure pt152">
+                    <div class="row">
+                        <div class="row">
+                            <div class="col-md-1"/>
+                            <div class="col-md-10">
+                                <div class="row">
+                                    <div class="col-md-6 phone_btn" style="display:none">
+                                        <img src="/theme_cobald/static/src/img/a2.png"
+                                             style="width:100%;height: 580px;"/>
+                                    </div>
+                                    <div class="col-1 phone_btn" style="display:none"/>
+                                    <div class="col-md-4 col-10">
+                                        <h3 class="text-uppercase common_h3 font-weight-bold pt64 pb48"
+                                            style="color:#2961c4;line-height: 1.5;letter-spacing: 3px;font-size:33px;">
+                                            Green &amp; Envaronmental
+                                        </h3>
+                                        <h6 class="text-dark pb88" style="font-size:22px;line-height: 1.9;">
+                                            Ehebus culicae iam inte omnius? Cae postrun tracredetidi susulint ius
+                                            noveroOcae
+                                            conem popularem omnihicam iae prorare pulvil conu.
+                                        </h6>
+                                        <a href="/about-details"
+                                           class="btn common_btn font-weight-bold text-uppercase s2_btn bg-white pt8 pb8 pl-5 pr-5"
+                                           style="border:1px solid #2961c4;color:#2961c4;border-radius: 0;font-size: 14px;letter-spacing: 2px;">
+                                            Merken
+                                        </a>
+                                    </div>
+                                    <div class="col-md-2"/>
+                                    <div class="col-md-6 desktop_btn">
+                                        <img src="/theme_cobald/static/src/img/a2.png"
+                                             style="width:100%;height: 680px;"/>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
                 <section class="about_forth_section oe_structure pt152 mb128">
                     <div class="row">
                         <div class="row">
@@ -152,6 +241,7 @@
                         </div>
                     </div>
                 </section>
+
                 <section class="about_fifth_section oe_structure desktop_btn" style="background:#f7f7f7;">
                     <div class="row">
                         <div class="col-md-1 col-1"/>
@@ -169,7 +259,7 @@
                                         Voorschrijvers project info aanvragen, Pelentesque odio nisi, euismod in,
                                         pharetra a
                                     </h6>
-                                    <a href="#"
+                                    <a href="/cta"
                                        class="btn font-weight-bold text-uppercase s2_btn bg-white pl-4 pr-4"
                                        style="border:1px solid #2961c4;color:#2961c4;border-radius: 0;font-size: 14px;letter-spacing: 2px;">
                                         cta
@@ -183,7 +273,7 @@
                                         Voorschrijvers project info aanvragen, Pelentesque odio nisi, euismod in,
                                         pharetra a
                                     </h6>
-                                    <a href="#"
+                                    <a href="/cta"
                                        class="btn font-weight-bold text-uppercase s2_btn bg-white pl-4 pr-4"
                                        style="border:1px solid #2961c4;color:#2961c4;border-radius: 0;font-size: 14px;letter-spacing: 2px;">
                                         cta
@@ -197,7 +287,7 @@
                                         Voorschrijvers project info aanvragen, Pelentesque odio nisi, euismod in,
                                         pharetra a
                                     </h6>
-                                    <a href="#"
+                                    <a href="/cta"
                                        class="btn font-weight-bold text-uppercase s2_btn bg-white pl-4 pr-4"
                                        style="border:1px solid #2961c4;color:#2961c4;border-radius: 0;font-size: 14px;letter-spacing: 2px;">
                                         cta
@@ -211,7 +301,7 @@
                                         Voorschrijvers project info aanvragen, Pelentesque odio nisi, euismod in,
                                         pharetra a
                                     </h6>
-                                    <a href="#"
+                                    <a href="/cta"
                                        class="btn font-weight-bold text-uppercase s2_btn bg-white pl-4 pr-4"
                                        style="border:1px solid #2961c4;color:#2961c4;border-radius: 0;font-size: 14px;letter-spacing: 2px;">
                                         cta
@@ -359,6 +449,11 @@
                     </div>
                 </section>
             </div>
+        </t>
+    </template>
+
+    <template id="cta_template" name="CTA">
+        <t t-call="website.layout">
         </t>
     </template>
 
