@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+
+        <record id="product_template_form_inherit" model="ir.ui.view">
+            <field name="name">product.template.form.inherit</field>
+            <field name="model">product.template</field>
+            <field name="inherit_id" ref="product.product_template_form_view"/>
+            <field name="priority" eval="8"/>
+            <field name="arch" type="xml">
+                <group name="group_standard_price" position="after">
+                    <group string="Product age">
+                        <field name="start_date" widget="date"/>
+                        <field name="interval" widget="radio"/>
+                        <field name="days" attrs="{'invisible':[('interval','!=','days')]}"/>
+                        <field name="months" attrs="{'invisible':[('interval','!=','months')]}"/>
+                        <field name="years" attrs="{'invisible':[('interval','!=','years')]}"/>
+                        <field name="due_date" widget="date"/>
+                    </group>
+                </group>
+            </field>
+        </record>
+
+    </data>
+</odoo>
