@@ -55,7 +55,7 @@
                                                t-attf-class="js_header_lang_phone #{'active' if lg[0] == request.env.lang else '' }"
                                                t-att-data-url_code="lg[1]">
                                                 NL
-
+                                                <span class="ml-4 mr-4">|</span>
                                             </a>
                                         </span>
                                     </t>
@@ -79,7 +79,6 @@
                                                t-attf-class="js_header_lang_phone #{'active' if lg[0] == request.env.lang else '' }"
                                                t-att-data-url_code="lg[1]">
                                                 FR
-                                                <span class="ml-4 mr-4">|</span>
                                             </a>
                                         </span>
                                     </t>
@@ -163,6 +162,7 @@
                                                        t-attf-class="js_header_lang #{'active' if lg[0] == request.env.lang else '' }"
                                                        t-att-data-url_code="lg[1]">
                                                         NL
+                                                        <span class="ml-1 mr-1">|</span>
                                                     </a>
                                                 </span>
                                             </t>
@@ -186,7 +186,6 @@
                                                        t-attf-class="js_header_lang #{'active' if lg[0] == request.env.lang else '' }"
                                                        t-att-data-url_code="lg[1]">
                                                         FR
-                                                        <span class="ml-1 mr-1">|</span>
                                                     </a>
                                                 </span>
                                             </t>
