@@ -49,6 +49,18 @@
                             </div>
                             <div class="pt128" style="font-size: 12px;">
                                 <t t-foreach="languages" t-as="lg">
+                                    <t t-if="lg[0] == 'nl_NL'">
+                                        <span class="mr-1">
+                                            <a t-att-href="url_for(request.httprequest.path + '?' + keep_query(), lang_code=lg[0])"
+                                               t-attf-class="js_header_lang_phone #{'active' if lg[0] == request.env.lang else '' }"
+                                               t-att-data-url_code="lg[1]">
+                                                NL
+
+                                            </a>
+                                        </span>
+                                    </t>
+                                </t>
+                                <t t-foreach="languages" t-as="lg">
                                     <t t-if="lg[0] == 'en_US'">
                                         <span>
                                             <a t-att-href="url_for(request.httprequest.path + '?' + keep_query(), lang_code=lg[0])"
@@ -68,18 +80,6 @@
                                                t-att-data-url_code="lg[1]">
                                                 FR
                                                 <span class="ml-4 mr-4">|</span>
-                                            </a>
-                                        </span>
-                                    </t>
-                                </t>
-                                <t t-foreach="languages" t-as="lg">
-                                    <t t-if="lg[0] == 'nl_NL'">
-                                        <span class="mr-1">
-                                            <a t-att-href="url_for(request.httprequest.path + '?' + keep_query(), lang_code=lg[0])"
-                                               t-attf-class="js_header_lang_phone #{'active' if lg[0] == request.env.lang else '' }"
-                                               t-att-data-url_code="lg[1]">
-                                                NL
-
                                             </a>
                                         </span>
                                     </t>
@@ -157,6 +157,17 @@
                                     </t>
                                     <span style="font-size: 12px;">
                                         <t t-foreach="languages" t-as="lg">
+                                            <t t-if="lg[0] == 'nl_NL'">
+                                                <span class="mr-1">
+                                                    <a t-att-href="url_for(request.httprequest.path + '?' + keep_query(), lang_code=lg[0])"
+                                                       t-attf-class="js_header_lang #{'active' if lg[0] == request.env.lang else '' }"
+                                                       t-att-data-url_code="lg[1]">
+                                                        NL
+                                                    </a>
+                                                </span>
+                                            </t>
+                                        </t>
+                                        <t t-foreach="languages" t-as="lg">
                                             <t t-if="lg[0] == 'en_US'">
                                                 <span>
                                                     <a t-att-href="url_for(request.httprequest.path + '?' + keep_query(), lang_code=lg[0])"
@@ -176,18 +187,6 @@
                                                        t-att-data-url_code="lg[1]">
                                                         FR
                                                         <span class="ml-1 mr-1">|</span>
-                                                    </a>
-                                                </span>
-                                            </t>
-                                        </t>
-                                        <t t-foreach="languages" t-as="lg">
-                                            <t t-if="lg[0] == 'nl_NL'">
-                                                <span class="mr-1">
-                                                    <a t-att-href="url_for(request.httprequest.path + '?' + keep_query(), lang_code=lg[0])"
-                                                       t-attf-class="js_header_lang #{'active' if lg[0] == request.env.lang else '' }"
-                                                       t-att-data-url_code="lg[1]">
-                                                        NL
-
                                                     </a>
                                                 </span>
                                             </t>
