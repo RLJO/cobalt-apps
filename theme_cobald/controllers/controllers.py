@@ -31,6 +31,14 @@ class Website(Website):
     def merken_details_page(self, **kw):
         return request.render('theme_cobald.merken_details_template', {})
 
+    @http.route('/merken-escale-details', type='http', auth="public", website=True)
+    def merken_escale_details_page(self, **kw):
+        return request.render('theme_cobald.merken_escale_details_template', {})
+
+    @http.route('/merken-ply-details', type='http', auth="public", website=True)
+    def merken_ply_details_page(self, **kw):
+        return request.render('theme_cobald.merken_ply_details_template', {})
+
     @http.route('/dealers', type='http', auth="public", website=True)
     def dealers_page(self, **kw):
         return request.render('theme_cobald.dealers_template', {})

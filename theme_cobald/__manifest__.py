@@ -16,6 +16,8 @@
         'views/merken.xml',
         'views/dealers.xml',
         'views/merken_details.xml',
+        'views/merken_ply_details.xml',
+        'views/merken_escale_details.xml',
         'views/contact.xml',
         'views/footer.xml',
         'views/cookie.xml',

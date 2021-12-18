@@ -146,38 +146,43 @@
                         </div>
                     </div>
                 </section>
-<!--                <section class="dealers_fifth_section oe_structure pt152">-->
-<!--                    <div class="row">-->
-<!--                        <div class="row">-->
-<!--                            <div class="col-md-1"/>-->
-<!--                            <div class="col-md-10">-->
-<!--                                <div class="row">-->
-<!--                                    <div class="col-md-6 phone_btn" style="display:none">-->
-<!--                                        <img src="/theme_cobald/static/src/img/d2"-->
-<!--                                             style="width:100%;height: 580px;"/>-->
-<!--                                    </div>-->
-<!--                                    <div class="col-1 phone_btn" style="display:none"/>-->
-<!--                                    <div class="col-md-4 col-10">-->
-<!--                                        <h3 class="text-uppercase common_h3 font-weight-bold pt64 pb48"-->
-<!--                                            style="color:#2961c4;line-height: 1.5;letter-spacing: 3px;font-size:33px;">-->
-<!--                                            eros eu erat aliquam erat volutpat.-->
-<!--                                        </h3>-->
-<!--                                        <h6 class="text-dark pb88" style="font-size:22px;line-height: 1.9;">-->
-<!--                                            Ehebus culicae iam inte omnius? Cae postrun tracredetidi susulint ius-->
-<!--                                            noveroOcae-->
-<!--                                            conem popularem omnihicam iae prorare pulvil conu.-->
-<!--                                        </h6>-->
-<!--                                    </div>-->
-<!--                                    <div class="col-md-2"/>-->
-<!--                                    <div class="col-md-6 desktop_btn">-->
-<!--                                        <img src="/theme_cobald/static/src/img/d2"-->
-<!--                                             style="width:100%;height: 680px;"/>-->
-<!--                                    </div>-->
-<!--                                </div>-->
-<!--                            </div>-->
-<!--                        </div>-->
-<!--                    </div>-->
-<!--                </section>-->
+                <section class="dealers_pt_section oe_structure pt88">
+                    <div class="row">
+                        <div class="row">
+                            <div class="col-md-1"/>
+                            <div class="col-md-10">
+                                <div class="row">
+                                    <div class="col-md-6 phone_btn" style="display:none">
+                                        <img src="/theme_cobald/static/src/img/d2"
+                                             style="width:100%;height: 580px;"/>
+                                    </div>
+                                    <div class="col-1 phone_btn" style="display:none"/>
+                                    <div class="col-md-4 col-10">
+                                        <h3 class="text-uppercase common_h3 font-weight-bold pt64 pb48"
+                                            style="color:#2961c4;line-height: 1.5;letter-spacing: 3px;font-size:33px;">
+                                            Green &amp; Envaronmental
+                                        </h3>
+                                        <h6 class="text-dark pb88" style="font-size:22px;line-height: 1.9;">
+                                            Ehebus culicae iam inte omnius? Cae postrun tracredetidi susulint ius
+                                            noveroOcae
+                                            conem popularem omnihicam iae prorare pulvil conu.
+                                        </h6>
+                                        <a href="#"
+                                           class="btn common_btn font-weight-bold text-uppercase s2_btn bg-white pt8 pb8 pl-5 pr-5"
+                                           style="border:1px solid #2961c4;color:#2961c4;border-radius: 0;font-size: 14px;letter-spacing: 2px;">
+                                            Merken
+                                        </a>
+                                    </div>
+                                    <div class="col-md-2"/>
+                                    <div class="col-md-6 desktop_btn">
+                                        <img src="/theme_cobald/static/src/img/d2"
+                                             style="width:100%;height: 680px;"/>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
                 <section class="third_section dealers_last_section oe_structure mb72 mt128" style="background:#f7f7f7;">
                     <div class="row">
                         <div class="col-md-1 col-1"/>

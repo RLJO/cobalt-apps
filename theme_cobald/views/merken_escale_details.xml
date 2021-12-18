@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <template id="merken_escale_details_template" name="Merken Escale Details">
+        <t t-call="website.layout">
+            <div id="wrap" class="oe_structure oe_empty merken_details_page">
+                <section class="md_first_section">
+                    <div class="row">
+                        <div class="col-md-1"/>
+                        <div class="col-md-11">
+                            <div class="row">
+                                <div class="col-12 d-sm-none d-block">
+                                    <img src="/theme_cobald/static/src/img/md1" style="width:100%;height:500px;"/>
+                                </div>
+                                <div class="col-1 d-sm-none d-block"/>
+                                <div class="col-md-4 col-10 pt32">
+                                    <div class="merken_return" style="width:90%;">
+                                        <a href="/merken" class="" style="color:#2961c4;">
+                                            <i class="fa fa-long-arrow-left mr-2"/>
+                                            Merken
+                                        </a>
+                                        <h3 class="text-black common_h3 font-weight-bold pb48 pt48 last_h3"
+                                            style="line-height: 1.5;font-size:73px;">
+                                            escale
+                                        </h3>
+                                        <h6 class="text-dark mb0" style="font-size:17px;line-height: 1.9;">
+                                            New Office Liisquist verem, nos furnihil, Cator abus, qui pat faci tem
+                                            clabem
+                                            num de publiem perfirim nerit. Ehebus culicae iam inte omnius? Cae postrun
+                                            tracredetidi susulint ius.
+                                        </h6>
+                                        <a href="#"
+                                           class="btn font-weight-bold text-uppercase s2_btn bg-white pt8 pb8 pl-5 pr-5"
+                                           style="position: absolute;bottom: 0;border:1px solid #2961c4;color:#2961c4;border-radius: 0;font-size: 14px;letter-spacing: 2px;">
+                                            vind een dealer
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-md-8 d-none d-sm-block">
+                                    <img src="/theme_cobald/static/src/img/md1" style="width:100%;height:600px;"/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="md_second_section mt112 pt48">
+                    <div class="row">
+                        <div class="col-md-1 col-1"/>
+                        <div class="col-md-10 col-10">
+                            <div class="row">
+                                <div class="col-md-12 col-12">
+                                    <h3 class="text-uppercase common_h3 font-weight-bold pb48 last_h3"
+                                        style="color:#2961c4;line-height: 1.5;letter-spacing: 3px;font-size:33px;">
+                                        productselectie
+                                    </h3>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="md_box">
+                                        <a href="#" style="margin-left: 15px;"
+                                           class="btn font-weight-bold slide_btn pl-5 pr-5 pt8 pb8 text-dark">
+                                            productnaam
+                                        </a>
+                                        <img src="/theme_cobald/static/src/img/md2" style="width:96%;height:400px;"/>
+                                    </div>
+                                    <div class="md_box pt96">
+                                        <a href="#" style="top: 496px;margin-left: 15px;"
+                                           class="btn font-weight-bold p_name_2 slide_btn pl-5 pr-5 pt8 pb8 text-dark">
+                                            productnaam
+                                        </a>
+                                        <img src="/theme_cobald/static/src/img/md4" style="width:96%;height:600px;"/>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 text-right mt96">
+                                    <div class="md_box">
+                                        <a href="#" style="margin-left: 15px;left: 25px;"
+                                           class="btn font-weight-bold slide_btn p_name_3 pl-5 pr-5 pt8 pb8 text-dark">
+                                            productnaam
+                                        </a>
+                                        <img src="/theme_cobald/static/src/img/md3" style="width:96%;height:400px;"/>
+                                    </div>
+                                    <div class="md_box pt96">
+                                        <a href="#" style="top: 496px;left: 25px;"
+                                           class="btn font-weight-bold slide_btn p_name_4 pl-5 pr-5 pt8 pb8 text-dark">
+                                            productnaam
+                                        </a>
+                                        <img src="/theme_cobald/static/src/img/md5" style="width:96%;height:400px;"/>
+                                    </div>
+                                    <div class="carousel_merken_blue mt96 text-left" style="width:96%;float: right;">
+                                        <div class="pl-5 pr-5"
+                                             style="background:#2961c4;">
+                                            <h3 class="common_h3 text-white pt48 pb16"
+                                                style="line-height: 1.5;letter-spacing: 3px;font-size:33px;">
+                                                Enea collectie
+                                            </h3>
+                                            <h6 class="text-white pb8" style="font-size:17px;line-height: 2;">
+                                                De volledige collectie van Enea ziem?
+                                                <br/>
+                                                Neem een kihkje op hun website
+                                            </h6>
+                                            <a href="/www.eneadesign.com"
+                                               class="btn text-uppercase font-weight-bold pl-4 pr-4 pt8 pb8 mb48"
+                                               style="color:#2961c4;background: white;border-radius: 0;font-size: 14px;letter-spacing: 2px;">
+                                                www.eneadesign.com
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="md_last_section oe_structure pb96 pt96">
+                    <div class="row">
+                        <div class="col-md-1"/>
+                        <div class="col-md-10">
+                            <h3 class="text-uppercase common_h3 font-weight-bold pb48 last_h3"
+                                style="color:#2961c4;line-height: 1.5;letter-spacing: 3px;font-size:33px;">
+                                project
+                            </h3>
+                            <div id="carouselExampleIndicators4" class="carousel slide" data-ride="carousel"
+                                 data-interval="0">
+                                <ol class="carousel-indicators">
+                                    <li data-target="#carouselExampleIndicators4" data-slide-to="0"
+                                        class="active"></li>
+                                    <li data-target="#carouselExampleIndicators4" data-slide-to="1"></li>
+                                    <li data-target="#carouselExampleIndicators4" data-slide-to="2"></li>
+                                </ol>
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img src="/theme_cobald/static/src/img/md6" style="width:100%;height: 580px;"/>
+                                        <div class="row">
+                                            <div class="col-md-6"/>
+                                            <div class="col-md-6 card_last p-0">
+                                                <div class="pl-5 pr-5" style="background:#2961c4;">
+                                                    <h3 class="text-white font-weight-bold pt40"
+                                                        style="line-height: 1.5;letter-spacing: 3px;font-size:33px;">
+                                                        Titel project
+                                                    </h3>
+                                                    <h6 class="text-white pb40" style="font-size:17px;line-height: 2;">
+                                                        New Office Liisquist verem, nos furnihili, Cator abus, qui pat
+                                                        faci tem
+                                                        clabem
+                                                        num de publiem perfirim nerit. Ehebus culicae iam inte omnius.
+                                                    </h6>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="/theme_cobald/static/src/img/md5" style="width:100%;height: 580px;"/>
+                                        <div class="row">
+                                            <div class="col-md-6"/>
+                                            <div class="col-md-6 card_last p-0">
+                                                <div class="pl-5 pr-5" style="background:#2961c4;">
+                                                    <h3 class="text-white font-weight-bold pt40"
+                                                        style="line-height: 1.5;letter-spacing: 3px;font-size:33px;">
+                                                        Titel project
+                                                    </h3>
+                                                    <h6 class="text-white pb40" style="font-size:17px;line-height: 2;">
+                                                        New Office Liisquist verem, nos furnihili, Cator abus, qui pat
+                                                        faci tem
+                                                        clabem
+                                                        num de publiem perfirim nerit. Ehebus culicae iam inte omnius.
+                                                    </h6>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="/theme_cobald/static/src/img/md4" style="width:100%;height: 580px;"/>
+                                        <div class="row">
+                                            <div class="col-md-6"/>
+                                            <div class="col-md-6 card_last p-0">
+                                                <div class="pl-5 pr-5" style="background:#2961c4;">
+                                                    <h3 class="text-white font-weight-bold pt40"
+                                                        style="line-height: 1.5;letter-spacing: 3px;font-size:33px;">
+                                                        Titel project
+                                                    </h3>
+                                                    <h6 class="text-white pb40" style="font-size:17px;line-height: 2;">
+                                                        New Office Liisquist verem, nos furnihili, Cator abus, qui pat
+                                                        faci tem
+                                                        clabem
+                                                        num de publiem perfirim nerit. Ehebus culicae iam inte omnius.
+                                                    </h6>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <a class="carousel-control-prev" href="#carouselExampleIndicators4" role="button"
+                                   data-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Previous</span>
+                                </a>
+                                <a class="carousel-control-next" href="#carouselExampleIndicators4" role="button"
+                                   data-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Next</span>
+                                </a>
+                            </div>
+
+                        </div>
+                    </div>
+                </section>
+
+            </div>
+        </t>
+    </template>
+
+</odoo>
