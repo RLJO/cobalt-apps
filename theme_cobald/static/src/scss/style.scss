@@ -214,6 +214,9 @@ h1{
         height: 15px;
         display: inline-block;
     }
+    img{
+        width: 100% !important;
+    }
 }
 @media (max-width: 767px){
     .form_contact{
@@ -274,7 +277,7 @@ h1{
             margin-left: 30px !important;
         }
         img{
-            height: 480px !important;
+            height: 600px !important;
         }
     }
 //     .merken_second_section {
