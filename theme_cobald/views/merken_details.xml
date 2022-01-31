@@ -72,6 +72,13 @@
                                         </a>
                                         <img src="/theme_cobald/static/src/img/md4" style="width:96%;height:600px;"/>
                                     </div>
+                                    <div class="md_box pt96">
+                                        <a href="#" style="margin-left: 15px;top: unset;"
+                                           class="btn font-weight-bold slide_btn pl-5 pr-5 pt8 pb8 text-dark">
+                                            productnaam
+                                        </a>
+                                        <img src="/theme_cobald/static/src/img/md2" style="width:96%;height:400px;"/>
+                                    </div>
                                 </div>
                                 <div class="col-md-6 text-right mt96">
                                     <div class="md_box">
@@ -83,6 +90,13 @@
                                     </div>
                                     <div class="md_box pt96">
                                         <a href="#" style="top: 496px;left: 25px;"
+                                           class="btn font-weight-bold slide_btn p_name_4 pl-5 pr-5 pt8 pb8 text-dark">
+                                            productnaam
+                                        </a>
+                                        <img src="/theme_cobald/static/src/img/md5" style="width:96%;height:400px;"/>
+                                    </div>
+                                    <div class="md_box pt96">
+                                        <a href="#" style="top: 496px;left: 25px;top: unset;"
                                            class="btn font-weight-bold slide_btn p_name_4 pl-5 pr-5 pt8 pb8 text-dark">
                                             productnaam
                                         </a>
@@ -151,7 +165,7 @@
                                         </div>
                                     </div>
                                     <div class="carousel-item">
-                                        <img src="/theme_cobald/static/src/img/md5" style="width:100%;height: 580px;"/>
+                                        <img src="/theme_cobald/static/src/img/project2.jpg" style="width:100%;height: 580px;"/>
                                         <div class="row">
                                             <div class="col-md-6"/>
                                             <div class="col-md-6 card_last p-0">
@@ -171,7 +185,7 @@
                                         </div>
                                     </div>
                                     <div class="carousel-item">
-                                        <img src="/theme_cobald/static/src/img/md4" style="width:100%;height: 580px;"/>
+                                        <img src="/theme_cobald/static/src/img/peoject1.jpg" style="width:100%;height: 580px;"/>
                                         <div class="row">
                                             <div class="col-md-6"/>
                                             <div class="col-md-6 card_last p-0">

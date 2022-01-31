@@ -214,6 +214,9 @@ h1{
         height: 15px;
         display: inline-block;
     }
+    img{
+        width: 100% !important;
+    }
 }
 @media (max-width: 767px){
     .form_contact{
